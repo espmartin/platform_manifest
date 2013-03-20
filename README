@@ -1,3 +1,19 @@
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr1
-$ repo sync
-$ . ./platform_manifest/manual_add_kernel_manifest.sh
+SchutzhundAOKP (AOKP spin-off - THANKS PipelinerArd! (https://github.com/PipelinerArd))
+
+Getting Started:
+
+If you want to build your own Android SchutzhundAOKP/AOKP for the HTC Ace, study up on Git and Repo.
+
+First, initialize your local repository using either AOKP, or my, trees. At the terminal prompt, type:
+
+     repo init -u git://github.com/espmartin/platform_manifest.git -b jb-mv
+                  
+Sync is next:
+
+     repo sync
+
+Then this:
+
+. ./platform_manifest/manual_add_kernel_manifest.sh
+
+Please note that I take NO responsibility for your phone being "bricked"! Study up :-)
