@@ -6,7 +6,7 @@ If you want to build your own Android SchutzhundAOKP/AOKP for the HTC Ace, study
 
 First, initialize your local repository using either AOKP, or my, trees. At the terminal prompt, type:
 
-     repo init -u git://github.com/espmartin/platform_manifest.git -b jb-mv
+     repo init -u git://github.com/espmartin/platform_manifest.git -b jb-mr1
                   
 Sync is next:
 
