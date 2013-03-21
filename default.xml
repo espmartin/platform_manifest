@@ -390,5 +390,5 @@
   
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
   
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="master" />
+  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
 </manifest>
