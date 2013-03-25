@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+ 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-
+ 
   <remote  name="aokp"
            fetch="https://github.com/AOKP/"
            review="gerrit.sudoservers.com" />
-
+ 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
-  
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
-
-  <remote  name="must"
-           fetch="https://github.com/Mustaavalkosta/" />
-
+ 
   <remote  name="github"
            fetch="https://github.com/" />
-
+ 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
-           
- <remote  name="kbk"
-           fetch="https://github.com/KangBangKreations/" />
-
-  <remote  name="andro"
-           fetch="https://github.com/Andromadus/" />
-           
-  <remote  name="pla"
-           fetch="https://github.com/PipelinerArd/" />
-
+            
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
-
+ 
   <project path="build" name="build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -50,7 +34,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
+  <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -59,9 +43,9 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/ace" name="android_device_htc_ace" remote="pla" revision="jb-mr1" />
+  <project path="device/htc/ace" name="PipelinerArd/android_device_htc_ace" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
-  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="pla" revision="jb-mr1" />
+  <project path="device/htc/msm7x30-common" name="PipelinerArd/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -219,14 +203,13 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="must" revision="jb-mv" />
-  <project path="frameworks/base" name="frameworks_base" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" />
+  <project path="frameworks/base" name="PipelinerArd/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -250,7 +233,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="andro" revision="cm10.1" />
+  <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
@@ -262,7 +245,7 @@
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="andro" revision="cm10.1" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr1" />
@@ -275,7 +258,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="kernel/htc/KangBanged-7x30" name="KangBanged-7x30" remote="kbk" revision="kb-stable" />
+  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -297,18 +280,18 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="pla" revision="jb-mr1" />
+  <project path="packages/apps/Mms" name="PipelinerArd/packages_apps_Mms" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="pla" revision="jb-mr1" />
+  <project path="packages/apps/Phone" name="PipelinerArd/packages_apps_Phone" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pla" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="PipelinerArd/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -355,7 +338,6 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="andro" revision="jellybean" groups="linux,arm" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
@@ -377,8 +359,8 @@
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  
-  <project path="vendor/aokp" name="vendor_aokp" remote="pla" revision="jb-cb" />
+   
+  <project path="vendor/aokp" name="PipelinerArd/vendor_aokp" remote="github" revision="jb-cb" />
   <project path="vendor/aokp/bot" name="pseudo_buildbot" remote="aokp" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
@@ -386,8 +368,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  
+   
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
-  
+   
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
 </manifest>
