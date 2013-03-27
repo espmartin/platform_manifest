@@ -329,7 +329,7 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" revision="gingerbread" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
