@@ -259,7 +259,7 @@
   
   <!-- begin test to kill build error 03-28-13 -->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/msm8660-common" name="espmartin/android_device_htc_msm8660-common" remote="github" />
+  <project path="hardware/qcom/msm8660-common" name="espmartin/android_device_htc_msm8660-common" remote="github" revision="master" />
   <!-- end test to kill build error 03-28-13 -->
   
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr1" />
