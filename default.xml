@@ -218,13 +218,6 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   
-  <!-- begin testing 03-27-13 -->
-  <project path="frameworks/av" name="Andromadus/android_frameworks_av" remote="github" revision="cm10.1" />
-  <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
-  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="cm10.1" />
-  <!-- <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" /> -->
-  <!-- end testing 03-27-13 -->
-  
   <project path="frameworks/base" name="PipelinerArd/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -261,10 +254,7 @@
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
-  <!-- begin testing 03-27 -13 -->
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
-  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" /> -->
-  <!-- end testing 03-27 -13 -->
+  
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr1" />
@@ -414,6 +404,16 @@
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mv" />
   <!-- end testing 03-27-13 -->
 
-https://github.com/CyanogenMod/android_build
+  <!-- begin testing 03-27-13 -->
+  <project path="frameworks/av" name="Andromadus/android_frameworks_av" remote="github" revision="cm10.1" />
+  <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
+  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="cm10.1" />
+  <!-- <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" /> -->
+  <!-- end testing 03-27-13 -->
 
+  <!-- begin testing 03-27 -13 -->
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
+  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" /> -->
+  <!-- end testing 03-27 -13 -->
+  
 </manifest>
