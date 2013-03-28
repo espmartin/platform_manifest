@@ -262,8 +262,8 @@
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
   <!-- begin testing 03-27 -13 -->
-  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" /> -->
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
+  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" /> -->
   <!-- end testing 03-27 -13 -->
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
@@ -413,5 +413,7 @@
   <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" /> -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mv" />
   <!-- end testing 03-27-13 -->
-  
+
+https://github.com/CyanogenMod/android_build
+
 </manifest>
