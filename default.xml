@@ -401,7 +401,7 @@
   <!-- begin testing 03-27-13 -->
   <!-- <project path="device/htc/ace" name="PipelinerArd/android_device_htc_ace" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" /> -->
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mv" />
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
   <!-- end testing 03-27-13 -->
 
   <!-- begin testing 03-27-13 -->
