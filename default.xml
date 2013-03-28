@@ -256,7 +256,12 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
   
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  
+  <!-- begin test to kill build error 03-28-13 -->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
+  <project path="hardware/qcom/msm8960" name="espmartin/android_device_htc_msm8660-common" remote="github" />
+  <!-- end test to kill build error 03-28-13 -->
+  
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
