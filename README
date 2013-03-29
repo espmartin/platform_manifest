@@ -12,7 +12,7 @@ Sync is next:
 
      repo sync
 
-Then this:
+ONLY if supporting multiple kernels:
 
 . ./platform_manifest/manual_add_kernel_manifest.sh
 
