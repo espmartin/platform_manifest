@@ -417,8 +417,8 @@
   <!-- end testing 03-27-13 -->
 
   <!-- begin testing 03-27 -13 -->
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
-  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" /> -->
+  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" /> -->
+- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" />
 <!--  <project path="hardware/qcom/media" name="espmartin/android_hardware_qcom_media" remote="github" revision="cm10.1" /> -->
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="cm10.1" />
 <!--  <project path="hardware/qcom/display" name="espmartin/android_hardware_qcom_display" remote="github" revision="cm10.1" /> -->
