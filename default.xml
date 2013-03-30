@@ -388,7 +388,7 @@
   <!-- end testing of kernel repos -->
 
   <!-- begin testing of toolchain 03-26-13 -->
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" /> -->
   <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="github" revision="jellybean" /> -->
   <!-- end testing of toolchain 03-26-13 -->
 
@@ -400,19 +400,22 @@
      
   <!-- begin testing new MediaProvider 03-27-13 -->
   <!--  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" /> -->
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider"  remote="github" />
+  <!-- <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" /> -->
   <!-- end testing new MediaProvider 03-27-13 -->
 
   <!-- begin testing 03-27-13 -->
   <!-- <project path="device/htc/ace" name="PipelinerArd/android_device_htc_ace" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" /> -->
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" />
+  <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" /> -->
   <!-- end testing 03-27-13 -->
 
   <!-- begin testing 03-27-13 -->
   <project path="frameworks/av" name="Andromadus/android_frameworks_av" remote="github" revision="cm10.1" />
-  <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
-  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="cm10.1" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" />
+  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="jb-mv" />
+  <!-- <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="cm10.1" /> -->
   <!-- <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" /> -->
   <!-- end testing 03-27-13 -->
 
