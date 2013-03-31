@@ -395,7 +395,7 @@
      
   <!-- begin testing new MediaProvider 03-27-13 -->
   <!--  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" /> -->
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" revision="gingerbread" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" revision="cm-10.1" />
   <!-- end testing new MediaProvider 03-27-13 -->
      
 </manifest>
