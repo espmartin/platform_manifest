@@ -390,7 +390,7 @@
 
   <!-- begin testing for DeskClock 03-26-13 -->
   <!-- <project path="device/htc/msm7x30-common" name="PipelinerArd/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" /> -->
-  <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
+  <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
   <!-- end testing for DeskClock 03-26-13 -->
      
   <!-- begin testing new MediaProvider 03-27-13 -->
