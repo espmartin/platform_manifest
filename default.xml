@@ -394,8 +394,8 @@
   <!-- end testing for DeskClock 03-26-13 -->
      
   <!-- begin testing new MediaProvider 03-27-13 -->
-  <!--  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" /> -->
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
-  <!-- end testing new MediaProvider 03-27-13 -->
+ <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <!-- <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" /> -->
+<!--  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" /> -->  <!-- end testing new MediaProvider 03-27-13 -->
      
 </manifest>
