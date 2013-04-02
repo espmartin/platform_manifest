@@ -378,26 +378,46 @@
    
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <!-- begin testing of kernel repos -->
-<!--  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-performance" /> -->
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
-  <!--  <project path="device/htc/ace" name="PipelinerArd/android_device_htc_ace" remote="github" revision="jb-mr1" /> -->
-  <!-- end testing of kernel repos -->
-
+  <!-- begin espmartin WORKING/TESTED additions -->
   <!-- begin testing of toolchain 03-26-13 -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="github" revision="jellybean" />
   <!-- end testing of toolchain 03-26-13 -->
-
+  <!-- begin testing of kernel repos -->
+  <!-- Mustaavalkosta's performance/stable kernel -->
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
+  <!--  <project path="device/htc/ace" name="PipelinerArd/android_device_htc_ace" remote="github" revision="jb-mr1" /> -->
+  <!--  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-performance" /> --> <!-- end testing of kernel repos -->
   <!-- begin testing for DeskClock 03-26-13 -->
   <!-- <project path="device/htc/msm7x30-common" name="PipelinerArd/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" /> -->
   <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
   <!-- end testing for DeskClock 03-26-13 -->
-     
   <!-- begin testing new MediaProvider 03-27-13 -->
- <!-- <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aokp" revision="jb-mr1" /> -->
+  <!-- <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aokp" revision="jb-mr1" /> -->
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
-<!--  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" /> -->  <!-- end testing new MediaProvider 03-27-13 -->
-     
+  <!--  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cfx" revision="jb-devel" /> -->  <!-- end testing new MediaProvider 03-27-13 -->
+  <!-- ending espmartin WORKING/TESTED additions -->
+  
+ <!-- begin espmartin's testing 04-01-13 -->
+  <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cfx" revision="jb-devel" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="cfx" revision="jb-devel" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" remote="github" revision="cm-10.1" />
+  <!-- support -->
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
+  <!-- -->
+  <!-- end espmartin's testing 04-01-13 -->
+  
 </manifest>
