@@ -380,14 +380,9 @@
   <!-- begin espmartin WORKING/TESTED additions -->
   
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
-  <!-- begin testing of toolchain 03-26-13 -->
-  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" /> -->
-  <!-- end testing of toolchain 03-26-13 -->
-  
-  <!-- begin testing of kernel repos -->
   <!-- Mustaavalkosta's performance/stable kernel -->
   <!-- begin testing of Musta's toolchain -->
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
+  <project path="prebuilt/linux-x86/toolchain/eabi_linaro" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
   <!-- end testing of Musta's toolchain -->
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
