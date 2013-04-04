@@ -376,25 +376,6 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
    
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
-
-  <!-- begin espmartin WORKING/TESTED additions -->
-  
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
-  <!-- Mustaavalkosta's performance/stable kernel -->
-  <!-- begin testing of Musta's toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" /> -->
-    <!-- end testing of Musta's toolchain -->
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
-  <!--  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-performance" /> --> <!-- end testing of kernel repos -->
-  <!-- begin testing for DeskClock 03-26-13 -->
-  <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
-  <!-- end testing for DeskClock 03-26-13 -->
-  <!-- begin testing new MediaProvider 03-27-13 -->
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
-  <!-- ending espmartin WORKING/TESTED additions -->
-  
   <!-- begin espmartin's testing 04-01-13 -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
@@ -407,5 +388,24 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
   <!-- -->
   <!-- end espmartin's testing 04-01-13 -->
+
+  <!-- begin espmartin WORKING/TESTED additions -->
+  
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
+  <!-- Mustaavalkosta's performance/stable kernel -->
+  <!-- begin testing of Musta's toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="github" revision="jellybean" />  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" /> -->
+    <!-- end testing of Musta's toolchain -->
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
+  <!--  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-performance" /> --> <!-- end testing of kernel repos -->
+  <!-- begin testing for DeskClock 03-26-13 -->
+  <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
+  <!-- end testing for DeskClock 03-26-13 -->
+  <!-- begin testing new MediaProvider 03-27-13 -->
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
+  <!-- ending espmartin WORKING/TESTED additions -->
+  
   
 </manifest>
