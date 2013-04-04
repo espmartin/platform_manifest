@@ -383,7 +383,8 @@
   <!-- Mustaavalkosta's performance/stable kernel -->
   <!-- begin testing of Musta's toolchain -->
   <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi" name="Mustaavalkosta/android_toolchain_eabi_linaro" revision="master" />
+ <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" /> -->
     <!-- end testing of Musta's toolchain -->
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
