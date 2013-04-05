@@ -375,9 +375,12 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
    
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="PipelinerArd/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
+  <!-- <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" /> -->
+  
   <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
-  <!-- begin espmartin's testing 04-01-13 -->
-  <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
@@ -386,28 +389,19 @@
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="cm-10.1" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" remote="github" revision="cm-10.1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
-  <!-- -->
+    
+  <!-- begin espmartin's APP testing 04-01-13 -->
+  <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's testing 04-01-13 -->
 
-  <!-- begin espmartin WORKING/TESTED additions -->
-  
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
-  <!-- Mustaavalkosta's performance/stable kernel -->
-  <!-- begin testing of Musta's toolchain -->
-  <project path="prebuilt/linux-x86/toolchain/eabi_linaro" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" /> -->
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="github" revision="jellybean" /> -->
+  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
+  <!-- begin testing Mustaavalkosta's performance/stable kernel and toolchain -->
+  <!-- <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" /> -->
+  <!-- <project path="prebuilt/linux-x86/toolchain/eabi_linaro" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" /> -->
   <!-- end testing of Musta's toolchain -->
   
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
-  <!--  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-performance" /> --> <!-- end testing of kernel repos -->
-  <!-- begin testing for DeskClock 03-26-13 -->
-  <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
-  <!-- end testing for DeskClock 03-26-13 -->
-  <!-- begin testing new MediaProvider 03-27-13 -->
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" />
   <!-- ending espmartin WORKING/TESTED additions -->
   
   
