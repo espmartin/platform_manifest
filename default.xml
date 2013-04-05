@@ -32,7 +32,7 @@
            remote="aosp"
            sync-j="4" />
             
-  <project path="build" name="build" remote="github" revision="jb-mr1" >
+  <project path="build" name="build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
