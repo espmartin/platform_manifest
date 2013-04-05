@@ -395,9 +395,9 @@
   <!-- Mustaavalkosta's performance/stable kernel -->
   <!-- begin testing of Musta's toolchain -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_toolchain_eabi_linaro" remote="github" revision="master" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" /> -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="github" revision="jellybean" />
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="github" revision="jellybean" /> -->
   <!-- end testing of Musta's toolchain -->
   
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
