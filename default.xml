@@ -32,13 +32,13 @@
            remote="aosp"
            sync-j="4" />
             
-  <project path="build" name="build" remote="aokp" revision="jb-mr1" >
+  <project path="build" name="build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
   
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" />
+  <project path="bionic" name="AOKP/bionic" remote="github" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
@@ -56,7 +56,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="github" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -71,7 +71,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
+  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
@@ -85,10 +85,10 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
+  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="github" revision="jb-mr1" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="github" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -125,7 +125,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="jb-mr1" />
+  <project path="external/jpeg" name="AOKP/external_jpeg" remote="github" revision="jb-mr1" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -141,7 +141,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="jb-mr1" />
+  <project path="external/libpng" name="AOKP/external_libpng" remote="github" revision="jb-mr1" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
@@ -156,8 +156,8 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="github" revision="master" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
@@ -207,7 +207,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
+  <project path="external/webkit" name="AOKP/external_webkit" remote="github" revision="jb-mr1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
@@ -234,7 +234,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="github" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -245,7 +245,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
-  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="jb-mr1" />
+  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
@@ -254,7 +254,7 @@
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
+  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
@@ -269,12 +269,12 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="Root-Box/packages_apps_DeskClock" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -282,34 +282,34 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="github" revision="jb-mr1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
     <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
     <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="github" revision="jb-mr1" />
     <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="AOKP/packages_apps_Torch" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Torch" name="AOKP/packages_apps_Torch" remote="github" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="AOKP/packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/VoiceDialer" name="AOKP/packages_apps_VoiceDialer" remote="github" revision="jb-mr1" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
+  <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="github" revision="jb-mr1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
-  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
+  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="github" revision="jb-mr1" />
+  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="github" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
@@ -344,23 +344,23 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
-  <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="jb-mr1" />
+  <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="github" revision="jb-mr1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="AOKP/system_core" remote="aokp" revision="jb-mr1" />
-  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
+  <project path="system/core" name="AOKP/system_core" remote="github" revision="jb-mr1" />
+  <project path="system/extras" name="AOKP/system_extras" remote="github" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
+  <project path="system/vold" name="AOKP/system_vold" remote="github" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
 
@@ -378,7 +378,7 @@
   <project path="packages/apps/Mms" name="espmartin/packages_apps_Mms" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="espmartin/packages_apps_Phone" remote="github" revision="jb-mr1" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" /> 
-  <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
+  <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
