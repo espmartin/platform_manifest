@@ -399,6 +399,6 @@
   -->
   <!-- end espmartin mod testing -->
   
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-cb" />
+  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-schutzhund" />
   -->  
 </manifest>
