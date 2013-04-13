@@ -378,7 +378,7 @@
   <project path="packages/apps/Mms" name="espmartin/packages_apps_Mms" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="espmartin/packages_apps_Phone" remote="github" revision="jb-mr1" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="cm-10.1" /> 
-  <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="github" revision="jb-mr1" />
+  <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
