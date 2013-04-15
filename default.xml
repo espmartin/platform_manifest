@@ -374,6 +374,17 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
+  <!-- begin espmartin mod testing -->
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="jellybean-stable" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
+  <!-- end espmartin mod testing -->
+  
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
