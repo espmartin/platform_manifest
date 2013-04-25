@@ -388,6 +388,8 @@
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
 
   <!-- begin testing of frameworks_base -->
+  <!-- see if below makes build -->
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="frameworks/base" name="espmartin/android_frameworks_base" remote="github" revision="cm-10.1" />
   <!-- <project path="frameworks/base" name="espmartin/platform_frameworks_base" remote="github" revision="jb-mr1" /> -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
