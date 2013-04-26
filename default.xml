@@ -391,7 +391,7 @@
   <!-- begin testing of frameworks_base -->
   <!-- see if below makes build -->
   <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" />
-  <project path="frameworks/base" name="espmartin/android_frameworks_base" remote="github" revision="cm-10.1" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <!-- <project path="frameworks/base" name="espmartin/platform_frameworks_base" remote="github" revision="jb-mr1" /> -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
