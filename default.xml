@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+manifest>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
@@ -13,7 +12,6 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
@@ -383,7 +381,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -461,7 +458,6 @@
 
   <!-- begin testing of frameworks_base -->
   <!-- see if below makes build -->
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
