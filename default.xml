@@ -1,4 +1,5 @@
-manifest>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
@@ -12,6 +13,7 @@ manifest>
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
