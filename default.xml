@@ -38,7 +38,6 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -398,7 +397,8 @@
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
- 
+  <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
+   
   <!-- end testing of kernel repos -->
   
   <!-- begin espmartin's to be worked on -->
