@@ -388,8 +388,8 @@
   <!-- begin testing of frameworks_base -->
   <!-- see if below makes build -->
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
-  <!-- <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" /> -->
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
+  <!-- <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
   <!-- <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" /> -->
