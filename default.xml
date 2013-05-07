@@ -372,7 +372,7 @@
   <!-- begin espmartin mod testing -->
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-cb" />
+  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
