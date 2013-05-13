@@ -341,9 +341,7 @@
   
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
@@ -351,9 +349,7 @@
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
@@ -383,7 +379,11 @@
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
-  
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" revision="jb-mv" />
+  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
+  <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" revision="jb-mv" />
+   
   <!-- codefirex -->
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
