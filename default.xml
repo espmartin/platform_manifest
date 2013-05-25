@@ -406,7 +406,8 @@
   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
+  <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" /> -->
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-must" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   
   <!-- toolchains and kernels -->
