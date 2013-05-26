@@ -59,7 +59,6 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -304,7 +303,7 @@
   <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="jb-mr1" />
   <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" />
-  <!-- <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" /> -->
+  <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr1" />
@@ -365,7 +364,7 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="cm" revision="cm-10.1" />
+  <!-- <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="cm" revision="cm-10.1" /> -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
