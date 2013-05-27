@@ -20,6 +20,9 @@
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
 
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod/" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -365,7 +368,6 @@
   <!-- <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" /> -->
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   <!-- <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="cm" revision="cm-10.1" /> -->
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
@@ -410,6 +412,9 @@
   <!-- codefirex -->
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
+  
+  <!-- SaberMod -->
+  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
