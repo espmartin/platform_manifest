@@ -289,7 +289,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/security" name="platform/system/security" />
+  <!-- <project path="system/security" name="platform/system/security" /> -->
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
@@ -417,6 +417,7 @@
   <!-- SaberMod -->
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
+  <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
