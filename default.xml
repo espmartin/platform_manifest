@@ -398,7 +398,7 @@
   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
   <!-- <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" /> -->
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
+  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" /> -->
  
   <!-- Mustaavalkosta -->
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
@@ -418,6 +418,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
   <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
