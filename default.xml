@@ -333,8 +333,8 @@
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
 
-  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" /> -->
+  <!-- <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" /> -->
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
@@ -419,6 +419,8 @@
   <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
   <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
