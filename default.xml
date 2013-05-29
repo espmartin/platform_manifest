@@ -374,7 +374,6 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.1"/>
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />  
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
@@ -421,6 +420,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sm" revision="sm-jb-mr1" />
   <!-- <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" />  -->
  
   <!-- espmartin -->
