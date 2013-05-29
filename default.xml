@@ -20,6 +20,9 @@
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
 
+  <remote name="sm"
+           fetch="https://github.com/SaberMod/" />
+ 
   <remote  name="github"
            fetch="https://github.com/" />
 
