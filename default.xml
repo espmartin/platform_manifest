@@ -310,7 +310,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   
   <!-- AOKP -->
-  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" /> -->
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
@@ -406,7 +406,8 @@
 
   <!-- SaberMod -->
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
-  
+  <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
+ 
   <!-- Andromadus -->
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <!-- <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" /> -->
