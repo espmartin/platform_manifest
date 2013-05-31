@@ -43,8 +43,8 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" > -->
-  <project path="build" name="espmartin/build" remote="espmartin" revision="jb-aosp" >
+  <!-- <project path="build" name="espmartin/build" remote="espmartin" revision="jb-aosp" > -->
+  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- AOSP -->
@@ -305,12 +305,12 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
-  <!-- <project path="system/security" name="platform/system/security" /> -->
+  <project path="system/security" name="platform/system/security" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   
   <!-- AOKP -->
-  <!-- <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" /> -->
+  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
@@ -372,6 +372,8 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+  
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
@@ -401,14 +403,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
 
-  <!-- SaberMod -->
-  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
-  <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
-  <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
-  <!-- <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" /> -->
-    
   <!-- Andromadus -->
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <!-- <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" /> -->
@@ -431,18 +426,17 @@
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
   
+  <!-- SaberMod -->
+  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
+  
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="espmartin" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="espmartin" revision="jb-kang" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="espmartin" revision="jb-mr1" />
   
-  <!-- toolchains -->
+  <!-- toolchains and kernels -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="tools_r22" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="tools_r22" />
-  
-  <!-- kernels -->
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
     
