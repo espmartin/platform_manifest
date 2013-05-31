@@ -372,8 +372,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
-  
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
@@ -408,6 +406,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
   <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
+  <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   
   <!-- Andromadus -->
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
