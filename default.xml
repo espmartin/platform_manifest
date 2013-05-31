@@ -401,13 +401,14 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
 
   <!-- SaberMod -->
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
   <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
-  <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
-  
+  <!-- <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" /> -->
+    
   <!-- Andromadus -->
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <!-- <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" /> -->
