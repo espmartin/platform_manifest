@@ -421,7 +421,8 @@
   <!-- SaberMod -->
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sm" revision="sm-jb-mr1" />
-    
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="sm" revision="sm-jb-mr1" />
+   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="espmartin" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="espmartin" revision="jb-kang" />
