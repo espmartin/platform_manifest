@@ -413,7 +413,8 @@
   <!-- <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" revision="jb-mv" /> -->
   <!-- <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" /> -->
   <!-- <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" revision="jb-mv" /> -->
-  
+  <!-- <project path="external/e2fsprogs" name="Mustaavalkosta/android_external_e2fsprogs" revision="jb-mv" /> -->
+ 
   <!-- codefirex -->
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
