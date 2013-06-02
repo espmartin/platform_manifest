@@ -408,7 +408,7 @@
  
   <!-- Mustaavalkosta -->
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
-  <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" remote="github" revision="jb-mv" />
+  <!-- <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" remote="github" revision="jb-mv" /> -->
    <!-- <project path="device/htc/common" name="Mustaavalkosta/android_device_htc_common" remote="github" revision="cm-10.1" /> -->
   <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
   <!-- <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" /> -->
@@ -432,6 +432,8 @@
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="espmartin" revision="jb-kang" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="espmartin" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="espmartin" revision="jb-mr1" />  
+  <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="espmartin" revision="jb-mr1" />
+    
   <!-- toolchains -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
@@ -441,7 +443,6 @@
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
     
   <!-- begin espmartin's to be worked on -->
-  <!-- <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
   
