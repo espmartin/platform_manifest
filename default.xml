@@ -401,7 +401,7 @@
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
+  <!-- <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" /> -->
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
   
   
@@ -411,7 +411,7 @@
   <!-- <project path="device/htc/common" name="Mustaavalkosta/android_device_htc_common" remote="github" revision="cm-10.1" /> -->
   <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
   <!-- <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" /> -->
-  <!-- <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" /> -->
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
   <!-- <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" revision="jb-mv" /> -->
   <!-- <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" /> -->
   <!-- <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" revision="jb-mv" /> -->
