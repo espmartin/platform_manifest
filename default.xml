@@ -43,7 +43,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="espmartin/build_aokp" remote="espmartin" revision="jb-toolchain" >
+  <project path="build" name="espmartin/build_aokp" remote="espmartin" revision="jb-mr1" >
   <!-- <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" > -->
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -430,7 +430,7 @@
    
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="espmartin" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="espmartin" revision="jb-toolchain" />
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="espmartin" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="espmartin" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="espmartin" revision="jb-mr1" />  
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="espmartin" revision="jb-mr1" />
