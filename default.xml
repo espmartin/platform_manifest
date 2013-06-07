@@ -314,9 +314,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- AOKP -->
-  <!-- <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" /> -->
-  <!-- <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" /> -->
-  <!-- <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr1" /> -->
   <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
@@ -368,8 +365,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
     
   <!-- CyanogenMod -->
-  <!-- <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" /> -->
-  <!-- <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" /> -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
@@ -419,7 +414,7 @@
   
   <!-- espmartin -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
-  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-devel" />
+  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="espmartin" revision="jb-mr1" />
