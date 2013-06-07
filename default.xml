@@ -416,7 +416,7 @@
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
-  <project path="frameworks/native" name="espmartin/frameworks_native" remote="espmartin" revision="jb-mr1" />
+  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
     
   <!-- toolchains -->
