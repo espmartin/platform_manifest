@@ -43,7 +43,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="espmartin/build" remote="github" revision="jb-mr1" >
+  <project path="build" name="espmartin/build" remote="github" revision="jb-toolchain" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -308,7 +308,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/security" name="platform/system/security" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
@@ -328,7 +327,6 @@
   <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
-  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr1" />
@@ -386,6 +384,8 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
@@ -403,7 +403,6 @@
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
   
@@ -411,25 +410,33 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-toolchain" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
+  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
+  <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-toolchain" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
-  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
     
   <!-- toolchains -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" remote="sm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" remote="sm" revision="master" />
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" /> -->
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" /> -->
+  <!-- <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" revision="master" groups="pdk,linux,x86" /> -->
   
   <!-- kernels -->
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
-  
+  <project path="kernel/htc/Mustaavalkosta-htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/andromadus-msm7x30-3.0" name="Andromadus/htc7x30-3.0" remote="github" revision="andromadus" />
+  <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
+ 
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
   
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-schutzhund" />
+  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-toolchain" />
 
 </manifest>
