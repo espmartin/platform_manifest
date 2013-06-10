@@ -43,7 +43,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="espmartin/build" remote="github" revision="jb-toolchain" >
+  <project path="build" name="espmartin/build" remote="github" revision="jb-schutzhund" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -248,7 +248,6 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr1" />
-  <!-- <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" /> -->
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -414,7 +413,7 @@
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
-  <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-toolchain" />
+  <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
