@@ -392,9 +392,6 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   
-  <!-- leppie -->
-  <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="leppie/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="master" />
-  
   <!-- codefireX -->
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
     
@@ -419,6 +416,7 @@
   <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
+  <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="master" />
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
     
   <!-- toolchains -->
