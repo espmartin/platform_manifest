@@ -338,7 +338,6 @@
   <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
@@ -417,6 +416,7 @@
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="master" />
+  <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
     
   <!-- toolchains -->
