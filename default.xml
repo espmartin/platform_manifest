@@ -410,7 +410,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" />
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
