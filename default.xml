@@ -412,6 +412,9 @@
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
+  
+  <!-- jackpal -->
+  <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master />
    
   <!-- espmartin -->
   <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" /> -->
