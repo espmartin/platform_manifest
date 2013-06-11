@@ -317,7 +317,6 @@
   <!-- AOKP -->
   <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
@@ -418,6 +417,7 @@
   <!-- espmartin -->
   <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" />
+  <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-4.9" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
