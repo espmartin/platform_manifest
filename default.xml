@@ -445,6 +445,6 @@
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
   
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-schutzhund" />
+  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-4.9" />
 
 </manifest>
