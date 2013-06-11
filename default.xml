@@ -43,7 +43,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="espmartin/build" remote="github" revision="jb-schutzhund" >
+  <project path="build" name="espmartin/build" remote="github" revision="jb-4.9" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -418,7 +418,7 @@
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
+  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-4.9" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="master" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
