@@ -394,11 +394,12 @@
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
     
   <!-- Mustaavalkosta -->
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" />
+  <!-- <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" /> -->
   
   <!-- Andromadus -->
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
+  <project path="frameworks/av" name="Andromadus/android_frameworks_av" remote="github" revision="cm10.1" />
   
   <!-- SaberMod -->
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
