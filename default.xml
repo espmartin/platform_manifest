@@ -314,7 +314,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- AOKP -->
-  <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" /> -->
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
@@ -405,6 +405,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
+  <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   
   <!-- jackpal -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
