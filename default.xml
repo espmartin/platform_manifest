@@ -368,6 +368,7 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="jellybean-stable" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="cm-10.1" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" remote="github" revision="cm-10.1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
@@ -401,7 +402,6 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="sm" revision="cm-10.1" />
   
   <!-- jackpal -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
