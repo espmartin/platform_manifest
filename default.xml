@@ -391,11 +391,11 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   
   <!-- codefireX -->
-    
+  
   <!-- Mustaavalkosta -->
   
   <!-- Andromadus -->
-    
+  
   <!-- SaberMod -->
   <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
