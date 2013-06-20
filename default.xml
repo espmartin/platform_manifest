@@ -32,6 +32,9 @@
   <remote name="Mustaavalkosta"
            fetch="https://github.com/Mustaavalkosta/" />
 
+  <remote name="paranoid"
+           fetch="git://github.com/ParanoidAndroid/" />
+
   <remote name="espmartin"
            fetch="https://bitbucket.org/espmartin/" />
            
@@ -404,8 +407,8 @@
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
-  <!-- jackpal -->
-  <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
+  <!-- Paranoid Android -->
+  <project path="packages/apps/Halo" name="HALO" remote="paranoid" revision="jellybean" />
    
   <!-- espmartin -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" />
