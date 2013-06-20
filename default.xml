@@ -408,8 +408,7 @@
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- Paranoid Android -->
-  <project path="packages/apps/Halo" name="HALO" remote="paranoid" revision="jellybean" />
-   
+     
   <!-- espmartin -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" /> -->
