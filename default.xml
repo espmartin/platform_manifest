@@ -449,6 +449,6 @@
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="cm-10.1" />
  
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-4.9" />
+  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-stable" />
 
 </manifest>
