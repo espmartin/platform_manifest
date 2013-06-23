@@ -317,7 +317,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- AOKP -->
-  <!-- <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" /> -->
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
@@ -339,7 +338,6 @@
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
-  <!-- <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="jb-mr1" /> -->
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
@@ -393,12 +391,6 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   
-  <!-- codefireX -->
-  
-  <!-- Mustaavalkosta -->
-  
-  <!-- Andromadus -->
-  
   <!-- SaberMod -->
   <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
@@ -406,8 +398,6 @@
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
-  
-  <!-- Paranoid Android -->
      
   <!-- espmartin -->
   <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" /> -->
@@ -432,24 +422,14 @@
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="espmartin" revision="jb-mr1" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="espmartin" revision="jb-devel" />
   
-  <!-- <project path="prebuilt" name="espmartin/android_prebuilt" remote="github" revision="cm-10.1" /> -->
-    
   <!-- toolchains -->
-  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" /> -->
-  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" /> -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
-  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" /> -->
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" remote="sm" revision="master" /> -->
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" remote="sm" revision="master" /> -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
   
   <!-- kernels -->
-  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
-  <project path="kernel/htc/Mustaavalkosta-htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
-  <project path="kernel/htc/andromadus-msm7x30-3.0" name="Andromadus/htc7x30-3.0" remote="github" revision="andromadus" />
-  <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="cm-10.1" />
  
+  <!-- main manifest build -->
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-4.9" />
 
 </manifest>
