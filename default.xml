@@ -344,6 +344,7 @@
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/VoiceDialer" name="AOKP/packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
   <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
@@ -403,7 +404,7 @@
   <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-4.9" />
   <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="cm-10.1" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="device/common" name="espmartin/android_device_common" remote="github" revision="cm10.1" />
   <project path="device/htc/common" name="espmartin/android_device_htc_common" remote="github" revision="jb" />
