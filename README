@@ -4,9 +4,9 @@ Getting Started:
 
 If you want to build your own Android AOKP for the HTC Ace, study up on Git and Repo.
 
-First, initialize your local repository using either AOKP, or my, trees. At the terminal prompt, type:
+First, initialize your local repository using the AOKP tree. At the terminal prompt, type:
 
-     repo init -u git://github.com/espmartin/platform_manifest.git -b jb-schutzhund
+     repo init -u git://github.com/AOKP/platform_manifest.git -b jb-mr1
                   
 Sync is next:
 
