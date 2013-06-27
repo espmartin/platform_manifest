@@ -391,9 +391,6 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   
-  <!-- lithid wallbox -->
-  <project path="packages/apps/WallBox" name="lithid/WallBox" remote="github" revision="master" />
-  
   <!-- SaberMod -->
   <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
