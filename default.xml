@@ -422,6 +422,7 @@
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-4.9" />
+  <project path="vendor" name="espmartin/android_vendor" remote="github" revision="master" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-4.9" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-4.9-wip" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="espmartin" revision="jb-devel" />
