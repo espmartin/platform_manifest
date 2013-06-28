@@ -399,9 +399,6 @@
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
-  <!-- lithid wallbox -->
-  <project path="packages/apps/WallBox" name="lithid/WallBox" remote="github" revision="master" />
-  
   <!-- espmartin -->
   <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" />
@@ -420,6 +417,7 @@
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="master" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/WallBox" name="espmartin/WallBox" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-4.9" />
   <project path="vendor" name="espmartin/android_vendor" remote="github" revision="master" />
