@@ -394,7 +394,7 @@
   <!-- SaberMod -->
   <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1-wip" /><!-- sm-jb-mr1 -->
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
