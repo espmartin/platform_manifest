@@ -428,7 +428,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
   
   <!-- kernels -->
-  <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="cm-10.1-wip" />
  
   <!-- main manifest build -->
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-4.9" />
