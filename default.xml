@@ -400,25 +400,25 @@
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- espmartin -->
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-stable" />
-  <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-perf" /> -->
+  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-4.9" />
   <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="cm-10.1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
-  <project path="device/common" name="espmartin/android_device_common" remote="github" revision="cm10.1" />
-  <project path="device/htc/common" name="espmartin/android_device_htc_common" remote="github" revision="jb" />
-  <project path="hardware/libhardware" name="espmartin/android_hardware_libhardware" remote="github" revision="cm10.1" />
-  <project path="hardware/qcom/display-caf" name="espmartin/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="espmartin/android_hardware_qcom_display" remote="github" revision="jb4.2" />
-  <project path="hardware/qcom/media" name="espmartin/android_hardware_qcom_media" remote="github" revision="cm10.1" />
-  <project path="device/htc/msm7x30-common" name="espmartin/android_device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
+  <project path="device/common" name="espmartin/device_common" remote="github" revision="cm10.1" />
+  <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb" />
+  <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="cm10.1" />
+  <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="cm10.1" />
+  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="master" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
-  <project path="system/security" name="espmartin/android_system_security" remote="github" revision="jb-schutzhund" />
+  <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-schutzhund" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-4.9" />
-  <project path="vendor" name="espmartin/android_vendor" remote="github" revision="master" />
+  <project path="vendor" name="espmartin/vendor" remote="github" revision="master" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-4.9" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-4.9-wip" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="espmartin" revision="jb-devel" />
