@@ -46,7 +46,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="espmartin/build" remote="github" revision="jb-4.9" >
+  <project path="build" name="espmartin/build" remote="github" revision="jb-mr1" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -431,6 +431,6 @@
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="cm-10.1-wip" />
  
   <!-- main manifest build -->
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-4.9" />
+  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
 
 </manifest>
