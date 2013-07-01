@@ -428,7 +428,6 @@
   
   <!-- kernels -->
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1" />
-  <project path="kernel/htc/KrazyKat7x30-3.0" name="krazykat7x30-3.0" remote="espmartin" revision="kb-stable" />
  
   <!-- main manifest build -->
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
