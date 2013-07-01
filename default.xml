@@ -399,8 +399,8 @@
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- espmartin -->
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" />
-  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
+  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
@@ -427,7 +427,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
   
   <!-- kernels -->
-  <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1-wip" />
+  <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1" />
+  <project path="kernel/htc/KrazyKat7x30-3.0" name="espmartin/KrazyKat7x30-3.0" remote="github" revision="jb-mr1" />
  
   <!-- main manifest build -->
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
