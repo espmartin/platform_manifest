@@ -399,8 +399,8 @@
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- espmartin -->
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" />
-  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
+  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
@@ -428,7 +428,7 @@
   
   <!-- kernels -->
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1" />
-  <project path="kernel/htc/KrazyKat7x30-3.0" name="espmartin/KrazyKat7x30-3.0" remote="github" revision="jb-mr1" />
+  <project path="kernel/htc/KrazyKat7x30-3.0" name="espmartin/KrazyKat7x30-3.0" remote="github" revision="jb-mr1-wip" />
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
     
   <!-- main manifest build -->
