@@ -323,8 +323,6 @@
   <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="github" revision="jb-mr1" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="github" revision="jb-mr1" />
-  <project path="frameworks/native" name="AOKP/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
@@ -406,6 +404,8 @@
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
+  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
