@@ -402,7 +402,8 @@
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
-  <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
+  <!-- <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" /> -->
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
@@ -410,7 +411,8 @@
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
+  <!-- <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" /> -->
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
