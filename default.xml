@@ -357,6 +357,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
     
   <!-- CyanogenMod -->
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="github" revision="cm-10.1" />
@@ -393,7 +394,6 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.1" />
   
   <!-- SaberMod -->
-  <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
