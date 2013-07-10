@@ -305,7 +305,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- AOKP -->
-  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
@@ -400,6 +399,7 @@
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- espmartin -->
+  <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
