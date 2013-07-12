@@ -339,7 +339,6 @@
   <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="jb-mr1" />
-  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
   <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="jb-mr1" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
@@ -360,7 +359,6 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
@@ -405,6 +403,7 @@
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
+  <project path="frameworks/opt/telephony" name="espmartin/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
@@ -416,6 +415,7 @@
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
+  <project path="packages/providers/TelephonyProvider" name="espmartin/packages_providers_TelephonyProvider" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-mr1" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
