@@ -413,7 +413,7 @@
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
   <project path="packages/providers/TelephonyProvider" name="espmartin/packages_providers_TelephonyProvider" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-mr1" />
