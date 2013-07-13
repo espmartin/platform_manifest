@@ -398,8 +398,8 @@
   
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
-  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
