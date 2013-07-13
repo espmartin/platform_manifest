@@ -401,7 +401,7 @@
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="espmartin/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
