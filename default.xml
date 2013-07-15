@@ -419,6 +419,7 @@
   <project path="packages/apps/Gallery" name="espmartin/packages_apps_Gallery" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/Gallery2" name="espmartin/packages_apps_Gallery2" remote="github" revision="jb-mr1-wip" />
   <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1-wip" />
+  <project path="hardware/qcom/media-caf" name="espmartin/android_hardware_qcom_media-caf" remote="github" revision="jb-mr1-wip" />
   <project path="packages/providers/MediaProvider" name="espmartin/packages_providers_MediaProvider" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/LegacyCamera" name="espmartin/packages_apps_LegacyCamera" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/Camera" name="espmartin/packages_apps_Camera" remote="github" revision="jb-mr1-wip" />
