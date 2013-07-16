@@ -390,6 +390,7 @@
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
+  <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="espmartin/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
@@ -400,12 +401,15 @@
   <project path="hardware/qcom/audio-caf" name="espmartin/hardware_qcom_audio-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
+  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
+  <project path="hardware/qcom/media-caf" name="espmartin/android_hardware_qcom_media-caf" remote="github" revision="jb-mr1" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
+  <project path="packages/providers/MediaProvider" name="espmartin/packages_providers_MediaProvider" remote="github" revision="jb-mr1" />
   <project path="packages/providers/TelephonyProvider" name="espmartin/packages_providers_TelephonyProvider" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-mr1" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
@@ -415,12 +419,8 @@
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" />
   
   <project path="hardware/qcom/camera" name="espmartin/hardware_qcom_camera" remote="github" revision="jb-mr1-wip" />
-  <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/Gallery" name="espmartin/packages_apps_Gallery" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/Gallery2" name="espmartin/packages_apps_Gallery2" remote="github" revision="jb-mr1-wip" />
-  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1-wip" />
-  <project path="hardware/qcom/media-caf" name="espmartin/android_hardware_qcom_media-caf" remote="github" revision="jb-mr1-wip" />
-  <project path="packages/providers/MediaProvider" name="espmartin/packages_providers_MediaProvider" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/LegacyCamera" name="espmartin/packages_apps_LegacyCamera" remote="github" revision="jb-mr1-wip" />
   <project path="packages/apps/Camera" name="espmartin/packages_apps_Camera" remote="github" revision="jb-mr1-wip" />
   
