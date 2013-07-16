@@ -319,6 +319,7 @@
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
@@ -399,6 +400,7 @@
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/audio" name="espmartin/hardware_qcom_audio" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/audio-caf" name="espmartin/hardware_qcom_audio-caf" remote="github" revision="jb-mr1" />
+  <project path="hardware/qcom/camera" name="espmartin/hardware_qcom_camera" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
@@ -407,6 +409,8 @@
   <project path="packages/apps/Camera" name="espmartin/packages_apps_Camera" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Gallery" name="espmartin/packages_apps_Gallery" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Gallery2" name="espmartin/packages_apps_Gallery2" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/LegacyCamera" name="espmartin/packages_apps_LegacyCamera" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
@@ -419,10 +423,6 @@
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" />
-  
-  <project path="hardware/qcom/camera" name="espmartin/hardware_qcom_camera" remote="github" revision="jb-mr1-wip" />
-  <project path="packages/apps/Gallery2" name="espmartin/packages_apps_Gallery2" remote="github" revision="jb-mr1-wip" />
-  <project path="packages/apps/LegacyCamera" name="espmartin/packages_apps_LegacyCamera" remote="github" revision="jb-mr1-wip" />
   
   <!-- toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
