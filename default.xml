@@ -391,10 +391,6 @@
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
-  <!-- Andromadus -->
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="cm10.1" />
-  <project path="hardware/qcom/media-caf" name="Andromadus/android_hardware_qcom_media-caf" remote="github" revision="cm10.1" />
-  
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
@@ -410,8 +406,10 @@
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/audio" name="espmartin/hardware_qcom_audio" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/audio-caf" name="espmartin/hardware_qcom_audio-caf" remote="github" revision="jb-mr1-wip" />
+  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
+  <project path="hardware/qcom/media-caf" name="espmartin/hardware_qcom_media-caf" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
