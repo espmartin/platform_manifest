@@ -348,6 +348,7 @@
   <!-- CyanogenMod -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" remote="cm" revision="jellybean" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.1"/>
@@ -404,7 +405,6 @@
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
-  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
