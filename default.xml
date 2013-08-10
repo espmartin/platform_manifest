@@ -81,6 +81,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- AOKP -->
+  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="jb-mr1" />
   <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
@@ -145,7 +146,6 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-10.1" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" remote="cm" revision="cm-10.1" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="cm" revision="cm-10.1" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" revision="cm-10.1" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" remote="cm" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
