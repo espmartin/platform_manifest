@@ -311,7 +311,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-10.1" />
+  <!-- <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-10.1" /> -->
   <!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="cm" revision="cm-10.1" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
@@ -321,7 +321,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="cm" revision="cm-10.1" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" remote="cm" revision="cm-10.1" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-10.1" />
+  <!-- <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-10.1" /> -->
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" remote="cm" revision="cm-10.1" />
@@ -443,9 +443,9 @@
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
-  <!-- <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" /> -->
+  <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" />
-  <!-- <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" /> -->
+  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
