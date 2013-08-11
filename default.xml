@@ -83,7 +83,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- AOKP -->
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="jb-mr1" />
   <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
@@ -442,6 +441,7 @@
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
