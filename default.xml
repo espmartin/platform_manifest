@@ -260,10 +260,6 @@
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" remote="cm" revision="cm-10.1" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" remote="cm" revision="cm-10.1" />
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" remote="cm" revision="cm-10.1" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="cm" revision="cm-10.1" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="cm" revision="cm-10.1" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="cm-10.1" />
-  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="cm" revision="cm-10.1" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" remote="cm" revision="cm-10.1" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" remote="cm" revision="cm-10.1" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" revision="cm-10.1" />
@@ -436,7 +432,11 @@
   <!-- SaberMod -->
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/clang" name="android_external_clang" remote="sm" revision="sm-jb-mr1" />
-  
+  <project path="external/openssh" name="android_external_openssh" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/openssl" name="android_external_openssl" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
+ 
   <!-- espmartin -->
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
