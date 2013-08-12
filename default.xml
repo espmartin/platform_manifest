@@ -144,7 +144,6 @@
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" remote="cm" revision="cm-10.1" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" remote="cm" revision="cm-10.1" />
   <project path="external/astl" name="CyanogenMod/android_external_astl" remote="cm" revision="cm-10.1" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-10.1" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" remote="cm" revision="cm-10.1" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" revision="cm-10.1" />
@@ -155,7 +154,6 @@
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="cm" revision="cm-10.1" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" remote="cm" revision="cm-10.1" />
   <project path="external/cibu-fonts" name="CyanogenMod/android_external_cibu-fonts" remote="cm" revision="cm-10.1" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.1" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" remote="cm" revision="cm-10.1" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" remote="cm" revision="cm-10.1" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" remote="cm" revision="cm-10.1" />
@@ -434,6 +432,10 @@
   <!-- musta -->
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
   <project path="frameworks/rs" name="Mustaavalkosta/android_frameworks_rs" remote="github" revision="jb-mv" />
+  
+  <!-- SaberMod -->
+  <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/clang" name="android_external_clang" remote="sm" revision="sm-jb-mr1" />
   
   <!-- espmartin -->
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
