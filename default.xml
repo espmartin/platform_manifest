@@ -389,7 +389,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   
   <!-- Andromadus -->
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jellybean" />
   
   <!-- SaberMod -->
   <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
