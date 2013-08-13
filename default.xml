@@ -386,7 +386,9 @@
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
-  
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sm" revision="sm-jb-mr1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
+ 
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
@@ -405,8 +407,6 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/media-caf" name="espmartin/android_hardware_qcom_media-caf" remote="github" revision="jb-mr1" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
