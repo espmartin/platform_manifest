@@ -386,6 +386,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sm" revision="sm-jb-mr1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
@@ -395,7 +396,6 @@
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
-  <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="espmartin/frameworks_opt_telephony" remote="github" revision="jb-mr1" />
