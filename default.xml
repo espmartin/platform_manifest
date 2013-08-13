@@ -400,7 +400,6 @@
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/audio" name="espmartin/hardware_qcom_audio" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/audio-caf" name="espmartin/hardware_qcom_audio-caf" remote="github" revision="jb-mr1" />
   
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
