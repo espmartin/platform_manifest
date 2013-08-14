@@ -391,56 +391,56 @@
   <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" /> -->
 
   <!-- Mustaavalkosta -->
-  <project path="bionic" name="Mustaavalkosta/android_bionic" revision="jb-mv" />
-  <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="jb-mv" /> -->
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
-  <project path="external/angle" name="Mustaavalkosta/android_external_angle" revision="jb-mv" />
-  <project path="external/chromium" name="Mustaavalkosta/android_external_chromium" revision="jb-mv" />
-  <project path="external/clang" name="Mustaavalkosta/android_external_clang" revision="jb-mv" />
-  <project path="external/compiler-rt" name="Mustaavalkosta/android_external_compiler-rt" revision="jb-mv" />
-  <project path="external/dnsmasq" name="Mustaavalkosta/android_external_dnsmasq" revision="jb-mv" />
-  <project path="external/e2fsprogs" name="Mustaavalkosta/android_external_e2fsprogs" revision="jb-mv" />
-  <project path="external/freetype" name="Mustaavalkosta/android_external_freetype" revision="jb-mv" />
-  <project path="external/fsck_msdos" name="Mustaavalkosta/android_external_fsck_msdos" revision="jb-mv" />
-  <project path="external/kissfft" name="Mustaavalkosta/android_external_kissfft" revision="jb-mv" />
-  <project path="external/llvm" name="Mustaavalkosta/android_external_llvm" revision="jb-mv" />
-  <project path="external/libpng" name="Mustaavalkosta/android_external_libpng" revision="jb-mv" />
-  <project path="external/lsof" name="Mustaavalkosta/android_external_lsof" revision="jb-mv" />
-  <project path="external/openssh" name="Mustaavalkosta/android_external_openssh" revision="jb-mv" />
-  <project path="external/openssl" name="Mustaavalkosta/android_external_openssl" revision="jb-mv" />
-  <project path="external/openvpn" name="Mustaavalkosta/android_external_openvpn" revision="jb-mv" />
-  <!-- <project path="external/oprofile" name="Mustaavalkosta/android_external_oprofile" revision="jb-mv" /> -->
-  <project path="external/ping" name="Mustaavalkosta/android_external_ping" revision="jb-mv" />
-  <project path="external/skia" name="Mustaavalkosta/android_external_skia" revision="jb-mv" />
-  <project path="external/stlport" name="Mustaavalkosta/android_external_stlport" revision="jb-mv" />
-  <!-- <project path="external/v8" name="Mustaavalkosta/android_external_v8" revision="jb-mv" /> -->
-  <!-- <project path="external/webkit" name="Mustaavalkosta/android_external_webkit" revision="jb-mv" /> -->
-  <project path="external/wpa_supplicant_8" name="Mustaavalkosta/android_external_wpa_supplicant_8" revision="jb-mv" />
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="jb-mv" />
-  <project path="frameworks/compile/libbcc" name="Mustaavalkosta/android_frameworks_compile_libbcc" revision="jb-mv" />
-  <project path="frameworks/ex" name="Mustaavalkosta/android_frameworks_ex" revision="jb-mv" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="jb-mv" />
-  <!-- <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" /> -->
-  <project path="frameworks/rs" name="Mustaavalkosta/android_frameworks_rs" revision="jb-mv" />
-  <project path="frameworks/wilhelm" name="Mustaavalkosta/android_frameworks_wilhelm" revision="jb-mv" />
-  <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" revision="jb-mv" />
-  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="jb-mv" />
-  <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" revision="jb-mv" />
-  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
-  <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" revision="jb-mv" />
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="cm-10.1-wip" />
-  <project path="libcore" name="Mustaavalkosta/android_libcore" revision="jb-mv" />
-  <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" revision="jb-mv" />
-  <!-- <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" revision="jb-mv" /> -->
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" revision="master" />
-  <project path="system/core" name="Mustaavalkosta/android_system_core" revision="jb-mv" />
-  <project path="system/security" name="Mustaavalkosta/android_system_security" revision="jb-mv" />
-  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" revision="jb-mv" />
-  <!-- <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="jb-mv" /> -->
-  <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" revision="jb-mv" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
+  <project path="bionic" name="Mustaavalkosta/android_bionic" remote="github" revision="jb-mv" />
+  <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" /> -->
+  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
+  <project path="external/angle" name="Mustaavalkosta/android_external_angle" remote="github" revision="jb-mv" />
+  <project path="external/chromium" name="Mustaavalkosta/android_external_chromium" remote="github" revision="jb-mv" />
+  <project path="external/clang" name="Mustaavalkosta/android_external_clang" remote="github" revision="jb-mv" />
+  <project path="external/compiler-rt" name="Mustaavalkosta/android_external_compiler-rt" remote="github" revision="jb-mv" />
+  <project path="external/dnsmasq" name="Mustaavalkosta/android_external_dnsmasq" remote="github" revision="jb-mv" />
+  <project path="external/e2fsprogs" name="Mustaavalkosta/android_external_e2fsprogs" remote="github" revision="jb-mv" />
+  <project path="external/freetype" name="Mustaavalkosta/android_external_freetype" remote="github" revision="jb-mv" />
+  <project path="external/fsck_msdos" name="Mustaavalkosta/android_external_fsck_msdos" remote="github" revision="jb-mv" />
+  <project path="external/kissfft" name="Mustaavalkosta/android_external_kissfft" remote="github" revision="jb-mv" />
+  <project path="external/llvm" name="Mustaavalkosta/android_external_llvm" remote="github" revision="jb-mv" />
+  <project path="external/libpng" name="Mustaavalkosta/android_external_libpng" remote="github" revision="jb-mv" />
+  <project path="external/lsof" name="Mustaavalkosta/android_external_lsof" remote="github" revision="jb-mv" />
+  <project path="external/openssh" name="Mustaavalkosta/android_external_openssh" remote="github" revision="jb-mv" />
+  <project path="external/openssl" name="Mustaavalkosta/android_external_openssl" remote="github" revision="jb-mv" />
+  <project path="external/openvpn" name="Mustaavalkosta/android_external_openvpn" remote="github" revision="jb-mv" />
+  <!-- <project path="external/oprofile" name="Mustaavalkosta/android_external_oprofile" remote="github" revision="jb-mv" /> -->
+  <project path="external/ping" name="Mustaavalkosta/android_external_ping" remote="github" revision="jb-mv" />
+  <project path="external/skia" name="Mustaavalkosta/android_external_skia" remote="github" revision="jb-mv" />
+  <project path="external/stlport" name="Mustaavalkosta/android_external_stlport" remote="github" revision="jb-mv" />
+  <!-- <project path="external/v8" name="Mustaavalkosta/android_external_v8" remote="github" revision="jb-mv" /> -->
+  <!-- <project path="external/webkit" name="Mustaavalkosta/android_external_webkit" remote="github" revision="jb-mv" /> -->
+  <project path="external/wpa_supplicant_8" name="Mustaavalkosta/android_external_wpa_supplicant_8" remote="github" revision="jb-mv" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" />
+  <project path="frameworks/compile/libbcc" name="Mustaavalkosta/android_frameworks_compile_libbcc" remote="github" revision="jb-mv" />
+  <project path="frameworks/ex" name="Mustaavalkosta/android_frameworks_ex" remote="github" revision="jb-mv" />
+  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" />
+  <!-- <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" /> -->
+  <project path="frameworks/rs" name="Mustaavalkosta/android_frameworks_rs" remote="github" revision="jb-mv" />
+  <project path="frameworks/wilhelm" name="Mustaavalkosta/android_frameworks_wilhelm" remote="github" revision="jb-mv" />
+  <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" remote="github" revision="jb-mv" />
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="jb-mv" />
+  <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" remote="github" revision="jb-mv" />
+  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
+  <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" remote="github" revision="jb-mv" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1-wip" />
+  <project path="libcore" name="Mustaavalkosta/android_libcore" remote="github" revision="jb-mv" />
+  <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" remote="github" revision="jb-mv" />
+  <!-- <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" remote="github" revision="jb-mv" /> -->
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="github" revision="master" />
+  <project path="system/core" name="Mustaavalkosta/android_system_core" remote="github" revision="jb-mv" />
+  <project path="system/security" name="Mustaavalkosta/android_system_security" remote="github" revision="jb-mv" />
+  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="github" revision="jb-mv" />
+  <!-- <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="jb-mv" /> -->
+  <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" remote="github" revision="jb-mv" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
   
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
