@@ -312,7 +312,7 @@
   <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="jb-mr1" />
   <!-- <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" /> -->
-  <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" /> -->
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
@@ -407,7 +407,7 @@
   <project path="external/skia" name="Mustaavalkosta/android_external_skia" remote="github" revision="jb-mv" />
   <project path="external/stlport" name="Mustaavalkosta/android_external_stlport" remote="github" revision="jb-mv" />
   <!-- <project path="external/v8" name="Mustaavalkosta/android_external_v8" remote="github" revision="jb-mv" /> -->
-  <!-- <project path="external/webkit" name="Mustaavalkosta/android_external_webkit" remote="github" revision="jb-mv" /> -->
+  <project path="external/webkit" name="Mustaavalkosta/android_external_webkit" remote="github" revision="jb-mv" />
   <project path="external/wpa_supplicant_8" name="Mustaavalkosta/android_external_wpa_supplicant_8" remote="github" revision="jb-mv" />
   <project path="frameworks/compile/libbcc" name="Mustaavalkosta/android_frameworks_compile_libbcc" remote="github" revision="jb-mv" />
   <project path="frameworks/ex" name="Mustaavalkosta/android_frameworks_ex" remote="github" revision="jb-mv" />
