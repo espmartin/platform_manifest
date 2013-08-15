@@ -392,7 +392,7 @@
 
   <!-- Mustaavalkosta -->
   <project path="bionic" name="Mustaavalkosta/android_bionic" remote="github" revision="jb-mv" />
-  <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" /> -->
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
   <project path="external/angle" name="Mustaavalkosta/android_external_angle" remote="github" revision="jb-mv" />
   <project path="external/chromium" name="Mustaavalkosta/android_external_chromium" remote="github" revision="jb-mv" />
@@ -444,7 +444,7 @@
   
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
+  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
@@ -477,6 +477,7 @@
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1" />
   <project path="kernel/htc/KrazyKat7x30-3.0" name="espmartin/KrazyKat7x30-3.0" remote="github" revision="jb-mr1" />
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1-wip" />
     
   <!-- main manifest build -->
   <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
