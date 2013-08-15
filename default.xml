@@ -381,8 +381,6 @@
   <!-- SaberMod -->
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
-  <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- Mustaavalkosta -->
@@ -402,11 +400,11 @@
   <project path="external/openssh" name="Mustaavalkosta/android_external_openssh" remote="github" revision="jb-mv" />
   <project path="external/openssl" name="Mustaavalkosta/android_external_openssl" remote="github" revision="jb-mv" />
   <project path="external/openvpn" name="Mustaavalkosta/android_external_openvpn" remote="github" revision="jb-mv" />
-  <!-- <project path="external/oprofile" name="Mustaavalkosta/android_external_oprofile" remote="github" revision="jb-mv" /> -->
+  <project path="external/oprofile" name="Mustaavalkosta/android_external_oprofile" remote="github" revision="jb-mv" />
   <project path="external/ping" name="Mustaavalkosta/android_external_ping" remote="github" revision="jb-mv" />
   <project path="external/skia" name="Mustaavalkosta/android_external_skia" remote="github" revision="jb-mv" />
   <project path="external/stlport" name="Mustaavalkosta/android_external_stlport" remote="github" revision="jb-mv" />
-  <!-- <project path="external/v8" name="Mustaavalkosta/android_external_v8" remote="github" revision="jb-mv" /> -->
+  <project path="external/v8" name="Mustaavalkosta/android_external_v8" remote="github" revision="jb-mv" />
   <project path="external/webkit" name="Mustaavalkosta/android_external_webkit" remote="github" revision="jb-mv" />
   <project path="external/wpa_supplicant_8" name="Mustaavalkosta/android_external_wpa_supplicant_8" remote="github" revision="jb-mv" />
   <project path="frameworks/compile/libbcc" name="Mustaavalkosta/android_frameworks_compile_libbcc" remote="github" revision="jb-mv" />
