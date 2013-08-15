@@ -361,7 +361,6 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
@@ -387,11 +386,6 @@
   <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
-  <!-- Andromadus -->
-  <!-- <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="cm10.1" /> -->
-  <!-- <project path="hardware/qcom/media-caf" name="Andromadus/android_hardware_qcom_media-caf" remote="github" revision="cm10.1" /> -->
-  <!-- <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="cm10.1" /> -->
-
   <!-- Mustaavalkosta -->
   <project path="bionic" name="Mustaavalkosta/android_bionic" remote="github" revision="jb-mv" />
   <!--<project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" /> -->
@@ -424,9 +418,7 @@
   <project path="frameworks/rs" name="Mustaavalkosta/android_frameworks_rs" remote="github" revision="jb-mv" />
   <project path="frameworks/wilhelm" name="Mustaavalkosta/android_frameworks_wilhelm" remote="github" revision="jb-mv" />
   <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" remote="github" revision="jb-mv" />
-  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="jb-mv" />
   <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" remote="github" revision="jb-mv" />
-  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
   <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" remote="github" revision="jb-mv" />
   <project path="libcore" name="Mustaavalkosta/android_libcore" remote="github" revision="jb-mv" />
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" remote="github" revision="jb-mv" />
@@ -454,7 +446,9 @@
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
-  <!-- <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" /> -->
+  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
+  <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
+  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
