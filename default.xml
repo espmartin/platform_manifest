@@ -59,7 +59,6 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
@@ -347,6 +346,7 @@
     
   <!-- CyanogenMod -->
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
+  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.1"/>
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-10.1" />
