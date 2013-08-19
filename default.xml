@@ -429,19 +429,25 @@
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
-  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
+  <!-- <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" /> -->
+  <project path="device/htc/msm7x30-common" name="blindndumb/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
-  <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" />
+  <!-- <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" /> -->
+  <project path="frameworks/av" name="blindndumb/android_frameworks_av" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
-  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
+  <!-- <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" /> -->
+  <project path="frameworks/native" name="blindndumb/android_frameworks_native" remote="github" revision="cm10.1" />
   <project path="frameworks/opt/telephony" name="espmartin/frameworks_opt_telephony" remote="github" revision="jb-mr1" />
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
-  <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
+  <!-- <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" /> -->
+  <project path="hardware/libhardware" name="blindndumb/android_hardware_libhardware" remote="github" revision="cm10.1" />
+  <!-- <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" /> -->
+  <project path="hardware/qcom/display" name="blindndumb/android_hardware_qcom_display" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
+  <!-- <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" /> -->
+  <project path="hardware/qcom/media" name="blindndumb/android_hardware_qcom_media" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/media-caf" name="espmartin/hardware_qcom_media-caf" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
