@@ -451,7 +451,7 @@
   <project path="hardware/qcom/display" name="blindndumb/android_hardware_qcom_display" remote="github" revision="cm10.1" />
   <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
   <!-- <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" /> -->
-  <project path="hardware/qcom/media" name="blindndumb/android_hardware_qcom_media" remote="github" revision="cm10.1" />
+  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/media-caf" name="espmartin/hardware_qcom_media-caf" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
