@@ -430,10 +430,6 @@
   <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="github" revision="jb-mv" />
   <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" remote="github" revision="jb-mv" />
   
-  <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1" />
-  <!-- <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1" /> -->
-
   <!-- espmartin -->
   <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
