@@ -418,7 +418,9 @@
   <project path="frameworks/rs" name="Mustaavalkosta/android_frameworks_rs" remote="github" revision="jb-mv" />
   <project path="frameworks/wilhelm" name="Mustaavalkosta/android_frameworks_wilhelm" remote="github" revision="jb-mv" />
   <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" remote="github" revision="jb-mv" />
-  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="jb-mv" />
+  
+  <!-- <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="jb-mv" /> -->
+  
   <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" remote="github" revision="jb-mv" />
   <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" remote="github" revision="jb-mv" />
   <project path="libcore" name="Mustaavalkosta/android_libcore" remote="github" revision="jb-mv" />
