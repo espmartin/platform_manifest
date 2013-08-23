@@ -450,7 +450,7 @@
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <!-- <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" /> -->
   <project path="hardware/libhardware" name="blindndumb/android_hardware_libhardware" remote="github" revision="cm10.1" />
-  <!-- <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" /> -->
+  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
   <!-- <project path="hardware/qcom/display" name="blindndumb/android_hardware_qcom_display" remote="github" revision="cm10.1" /> -->
   <!-- <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" /> -->
