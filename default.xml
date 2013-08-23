@@ -59,6 +59,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
@@ -311,7 +312,7 @@
   <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="jb-mr1" />
   <!-- <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" /> -->
-  <!-- <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" /> -->
+  <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" />
   <!-- <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" /> -->
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
@@ -345,11 +346,10 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
     
   <!-- CyanogenMod -->
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
-  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.1"/>
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-10.1" />
   <project path="external/neven" name="CyanogenMod/android_external_neven" remote="cm" revision="cm-10.1" />
   <!-- <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" /> -->
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
@@ -358,14 +358,10 @@
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  
-  <!-- <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" /> -->
-  
-  <!-- <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" /> -->
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1-old" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
@@ -382,15 +378,20 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-10.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
-  
+   
   <!-- SaberMod -->
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
+  <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/v8" name="android_external_v8" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- Mustaavalkosta -->
   <project path="bionic" name="Mustaavalkosta/android_bionic" remote="github" revision="jb-mv" />
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="jb-mv" />
+  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
   <project path="external/angle" name="Mustaavalkosta/android_external_angle" remote="github" revision="jb-mv" />
+  <project path="external/bluetooth/bluedroid" name="Mustaavalkosta/android_external_bluetooth_bluedroid" remote="github" revision="jb-mv" />
   <project path="external/chromium" name="Mustaavalkosta/android_external_chromium" remote="github" revision="jb-mv" />
   <project path="external/clang" name="Mustaavalkosta/android_external_clang" remote="github" revision="jb-mv" />
   <project path="external/compiler-rt" name="Mustaavalkosta/android_external_compiler-rt" remote="github" revision="jb-mv" />
@@ -412,66 +413,52 @@
   <project path="external/v8" name="Mustaavalkosta/android_external_v8" remote="github" revision="jb-mv" />
   <project path="external/webkit" name="Mustaavalkosta/android_external_webkit" remote="github" revision="jb-mv" />
   <project path="external/wpa_supplicant_8" name="Mustaavalkosta/android_external_wpa_supplicant_8" remote="github" revision="jb-mv" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="jb-mv" />
+  <project path="frameworks/base" name="Mustaavalkosta/android_frameworks_base" remote="github" revision="jb-mv" />
   <project path="frameworks/compile/libbcc" name="Mustaavalkosta/android_frameworks_compile_libbcc" remote="github" revision="jb-mv" />
   <project path="frameworks/ex" name="Mustaavalkosta/android_frameworks_ex" remote="github" revision="jb-mv" />
-  <!-- <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" /> -->
+  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="jb-mv" />
+  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="jb-mv" />
   <project path="frameworks/rs" name="Mustaavalkosta/android_frameworks_rs" remote="github" revision="jb-mv" />
   <project path="frameworks/wilhelm" name="Mustaavalkosta/android_frameworks_wilhelm" remote="github" revision="jb-mv" />
   <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" remote="github" revision="jb-mv" />
-  
-  <!-- <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="jb-mv" /> -->
-  
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="jb-mv" />
   <project path="hardware/qcom/gps" name="Mustaavalkosta/android_hardware_qcom_gps" remote="github" revision="jb-mv" />
+  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
   <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" remote="github" revision="jb-mv" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1-wip" />
   <project path="libcore" name="Mustaavalkosta/android_libcore" remote="github" revision="jb-mv" />
   <project path="packages/apps/Camera" name="Mustaavalkosta/android_packages_apps_Camera" remote="github" revision="jb-mv" />
+  <project path="packages/apps/Settings" name="Mustaavalkosta/android_packages_apps_Settings" remote="github" revision="jb-mv" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="github" revision="master" />
   <project path="system/core" name="Mustaavalkosta/android_system_core" remote="github" revision="jb-mv" />
   <project path="system/security" name="Mustaavalkosta/android_system_security" remote="github" revision="jb-mv" />
   <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="github" revision="jb-mv" />
+  <!-- <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="jb-mv" /> -->
   <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" remote="github" revision="jb-mv" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
   
   <!-- espmartin -->
-  <project path="dalvik" name="espmartin/dalvik" remote="github" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
-  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
-  <!-- <project path="device/htc/msm7x30-common" name="blindndumb/android_device_htc_msm7x30-common" remote="github" revision="cm10.1" /> -->
+  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
-  <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
-  <!-- <project path="frameworks/av" name="espmartin/frameworks_av" remote="github" revision="jb-mr1" /> -->
-  <project path="frameworks/av" name="blindndumb/android_frameworks_av" remote="github" revision="cm10.1" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" />
-  <!-- <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" /> -->
-  <project path="frameworks/native" name="blindndumb/android_frameworks_native" remote="github" revision="cm10.1" />
-  <project path="frameworks/opt/telephony" name="espmartin/frameworks_opt_telephony" remote="github" revision="jb-mr1" />
-  <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
+  <!-- <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" /> -->
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
-  <!-- <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" /> -->
-  <project path="hardware/libhardware" name="blindndumb/android_hardware_libhardware" remote="github" revision="cm10.1" />
-  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
-  <!-- <project path="hardware/qcom/display" name="blindndumb/android_hardware_qcom_display" remote="github" revision="cm10.1" /> -->
-  <!-- <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" /> -->
-  <!-- <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" /> -->
-  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/media-caf" name="espmartin/hardware_qcom_media-caf" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
-  <project path="packages/providers/TelephonyProvider" name="espmartin/packages_providers_TelephonyProvider" remote="github" revision="jb-mr1" />
-  <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-mr1" />
-  <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
+  <!-- <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" /> -->
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
-  <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" />
+  <!-- <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" /> -->
   
   <!-- toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" /> -->
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" /> -->
   
   <!-- kernels -->
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1" />
