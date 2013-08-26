@@ -444,6 +444,7 @@
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" />
+  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1-wip" />
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
