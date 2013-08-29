@@ -392,7 +392,6 @@
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
-  <project path="system/core" name="android_system_core" remote="sm" revision="sm-jb-mr1" />
   
   <!-- Device ACE -->
   <project path="device/htc/ace" name="AndyFox2013/android_device_htc_ace" remote="github" revision="cm-10.1" />
@@ -417,7 +416,7 @@
   <!-- <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" /> -->
-  <!-- <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" /> -->
+  <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1-wip" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
