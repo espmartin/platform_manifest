@@ -475,7 +475,6 @@
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
   
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
   <!-- espmartin -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
