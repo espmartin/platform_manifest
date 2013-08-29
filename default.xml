@@ -459,7 +459,6 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <!--remove-project name="CyanogenMod/android_packages_apps_CMUpdater" -->
-  <remove-project name="platform/prebuilts/misc" />
 
   <!-- Device ACE -->
   <project path="device/htc/ace" name="AndyFox2013/android_device_htc_ace" revision="cm-10.1" />
