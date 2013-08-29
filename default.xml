@@ -380,7 +380,6 @@
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-10.1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
-  <project path="system/core" name="CyanogenMod/android_system_core" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <!-- remove CM repos -->
@@ -393,6 +392,7 @@
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
+  <project path="system/core" name="android_system_core" remote="sm" revision="sm-jb-mr1" />
   
   <!-- Device ACE -->
   <project path="device/htc/ace" name="AndyFox2013/android_device_htc_ace" remote="github" revision="cm-10.1" />
