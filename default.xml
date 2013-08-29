@@ -339,7 +339,6 @@
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="jb-mr1" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr1" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr1" />
   
@@ -421,7 +420,7 @@
   <!-- <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" /> -->
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
+  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1-wip" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
   <!-- <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" /> -->
   
