@@ -295,7 +295,6 @@
   
   <!-- AOKP -->
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
@@ -406,11 +405,12 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
   
   <!-- espmartin -->
+  <!-- <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <!-- <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" /> -->
   <!-- <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1-wip" /> -->
-  <!-- <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" /> -->
