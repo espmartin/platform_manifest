@@ -3,33 +3,37 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-4.2.2_r1.2"
+           remote="aosp"
+           sync-j="4"
+           sync-c="true"/>
 
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
-  <remote name="github"
+  <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote name="cm"
-        fetch="https://github.com/"
-        review="review.cyanogenmod.com"
-        revision="refs/heads/cm-10.1"
-        sync-c="true" />
+  <remote  name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com"
+           revision="refs/heads/cm-10.1"
+           sync-c="true" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
-  <remote name="sm"
+  <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
  
-  <default revision="refs/tags/android-4.2.2_r1.2"
-           remote="aosp"
+  <default revision="refs/heads/cm-10.1"
+           remote="cm"
            sync-j="4"
            sync-c="true" />
-
+           
   <project path="build" name="espmartin/build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
