@@ -212,7 +212,7 @@
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" revision="cm-10.1" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" remote="cm" revision="cm-10.1" />
-  <!-- <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" /> -->
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" remote="cm" revision="cm-10.1" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" remote="cm" revision="cm-10.1" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="cm" revision="cm-10.1" />
@@ -404,7 +404,7 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   
   <!-- SaberMod -->
-  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /><!-- sm-jb-mr1-wip -->
+  <!-- <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" /> -->
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- Device ACE -->
