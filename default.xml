@@ -30,7 +30,7 @@
            fetch="https://github.com/SaberMod/" />
  
   <default revision="refs/heads/cm-10.1"
-           remote="cm"
+           remote="github"
            sync-j="4"
            sync-c="true" />
            
