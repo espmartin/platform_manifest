@@ -207,7 +207,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-10.1" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-10.2" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" remote="cm" revision="cm-10.1" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" revision="cm-10.1" />
