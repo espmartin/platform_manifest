@@ -369,7 +369,7 @@
   
   <!-- AOKP -->
   <!-- <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" /> -->
-  <!-- <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" /> -- >
+  <!-- <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" /> -->
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <!-- <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="jb-mr1" /> -->
