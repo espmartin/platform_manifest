@@ -380,6 +380,7 @@
 
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
   
   <!-- SaberMod -->
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
