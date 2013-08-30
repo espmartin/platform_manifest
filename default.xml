@@ -25,7 +25,8 @@
  
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <project path="build" name="espmartin/build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
