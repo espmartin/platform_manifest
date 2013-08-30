@@ -286,7 +286,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/security" name="platform/system/security" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
@@ -417,6 +416,7 @@
   <!-- <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" /> -->
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
+  <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-mr1" />
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1-wip" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
