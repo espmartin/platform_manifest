@@ -328,7 +328,7 @@
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" remote="cm" revision="cm-10.1" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" remote="cm" revision="cm-10.1" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" remote="cm" revision="cm-10.1" />
-  <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="cm" revision="cm-10.1" remote="cm" revision="cm-10.1" />
+  <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="cm" revision="cm-10.1" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" remote="cm" revision="cm-10.1" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-10.1" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" remote="cm" revision="cm-10.1" />
