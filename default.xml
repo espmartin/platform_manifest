@@ -370,8 +370,6 @@
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="cm" revision="cm-10.1" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-10.1" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-10.1" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-10.1" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.1"/>
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-10.1" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
