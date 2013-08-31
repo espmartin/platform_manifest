@@ -34,7 +34,7 @@
            sync-j="4"
            sync-c="true" />
            
-  <project path="build" name="aokp/build" remote="github" revision="jb-mr1" >
+  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
