@@ -456,7 +456,6 @@
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   
   <!-- Device ACE -->
-  <project path="device/htc/ace" name="AndyFox2013/android_device_htc_ace" remote="github" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
   <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
   <project path="local_manifest" name="Mustaavalkosta/android" remote="github" revision="cm-10.1" />
@@ -468,7 +467,7 @@
   
   <!-- espmartin -->
   <!-- <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" /> -->
-  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
