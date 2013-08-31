@@ -267,7 +267,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -411,7 +410,6 @@
   <!-- <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb-mr1" /> -->
   <!-- <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" /> -->
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" />
   <!-- <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" /> -->
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
@@ -476,7 +474,7 @@
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" /> -->
   <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
-  <!-- <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1-wip" /> -->
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
   <!-- <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" /> -->
   <!-- <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" /> -->
