@@ -405,7 +405,6 @@
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VoiceDialer" name="AOKP/packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
   <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
@@ -437,26 +436,22 @@
   <project path="external/bash" name="android_external_bash" remote="sm" revision="sm-jb-mr1" />
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   
-  <!-- Device ACE -->
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
-  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
+  <!-- Mustaavalkosta -->
   <project path="external/kissfft" name="Mustaavalkosta/android_external_kissfft" remote="github" revision="jb-mv" />
   
   <!-- espmartin -->
-  <!-- <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" /> -->
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
-  <!-- <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-stable" /> -->
+  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="jb-mr1" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="jb-mr1" />
+  <project path="frameworks/opt/telephony" name="espmartin/frameworks_opt_telephony" remote="github" revision="jb-mr1" />
   <!-- <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" /> -->
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
-  <!-- <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" /> -->
+  <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
+  <project path="prebuilts/misc" name="espmartin/prebuilts_misc" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
@@ -464,11 +459,12 @@
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
-  <!-- <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" /> -->
+  <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" />
   
   <!-- toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
+  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="master" /> -->
   
   <!-- kernels -->
   <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="jb-mr1" />
