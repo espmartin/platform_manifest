@@ -30,8 +30,7 @@
            fetch="https://github.com/SaberMod/" />
  
   <remote name="espmartin"
-           fetch="https://bitbucket.org/espmartin/"
-           revision="jb-mr1" />
+           fetch="https://bitbucket.org/espmartin/" />
 
   <default revision="refs/heads/cm-10.1"
            remote="github"
@@ -456,7 +455,7 @@
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
   <project path="system/security" name="espmartin/system_security" remote="github" revision="jb-mr1" />
   <project path="vendor" name="espmartin/vendor" remote="github" revision="jb-mr1" />
-  <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="jb-mr1" />
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="jb-mr1" />
   
