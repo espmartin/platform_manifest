@@ -446,7 +446,7 @@
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="jb-mr1" />
-  <project path="prebuilts/misc" name="espmartin/prebuilts_misc" remote="github" revision="jb-mr1" />
+  <!-- <project path="prebuilts/misc" name="espmartin/prebuilts_misc" remote="github" revision="jb-mr1" /> -->
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="jb-mr1" />
   <project path="system/core" name="espmartin/system_core" remote="github" revision="jb-mr1" />
