@@ -34,7 +34,8 @@
            sync-j="4"
            sync-c="true" />
            
-  <project path="build" name="espmartin/build" remote="github" revision="jb-mr1-wip" >
+  <!-- <project path="build" name="espmartin/build" remote="github" revision="jb-mr1-wip" > -->
+  <project path="build" name="BeerGang/android_build" remote="github" revision="cm-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
