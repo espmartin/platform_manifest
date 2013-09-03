@@ -30,7 +30,7 @@
            fetch="https://github.com/SaberMod/" />
  
   <remote name="espmartin"
-           fetch="ssh://git@bitbucket.org/espmartin/"
+           fetch="https://bitbucket.org/espmartin/"
            revision="jb-mr1" />
 
   <default revision="refs/heads/cm-10.1"
