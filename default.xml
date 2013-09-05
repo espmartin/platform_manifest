@@ -384,6 +384,7 @@
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
@@ -408,7 +409,6 @@
   <project path="device/common" name="espmartin/device_common" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="espmartin/device_htc_common" remote="github" revision="jb-mr1" />
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="jb-mr1" />
-  <project path="hardware/qcom/display-caf" name="espmartin/hardware_qcom_display-caf" remote="github" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="jb-mr1" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="jb-mr1" />
