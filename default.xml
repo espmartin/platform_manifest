@@ -16,13 +16,13 @@
   <remote name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
 
+  <remote name="sm"
+           fetch="https://github.com/SaberMod/" />
+ 
   <remote name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
-  <remote name="sm"
-           fetch="https://github.com/SaberMod/" />
- 
   <remote name="pa"
            fetch="https://github.com/ParanoidAndroid/" />
 
