@@ -51,6 +51,7 @@
   </project>
   
   <!-- AOSP -->
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
