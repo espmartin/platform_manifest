@@ -406,7 +406,6 @@
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="kitkat" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
     
@@ -493,10 +492,11 @@
   <project path="system/core" name="espmartin/system_core" remote="github" revision="kitkat" />
   <project path="system/security" name="espmartin/system_security" remote="github" revision="kitkat" />
   <project path="vendor" name="espmartin/vendor" remote="github" revision="kitkat" />
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="kitkat" />
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="kitkat" />
--->  
+-->
+  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
+  
   <!-- toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
