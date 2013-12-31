@@ -460,7 +460,6 @@
   <!-- SaberMod -->
   
   <!-- Mustaavalkosta -->
-  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-11.0" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
@@ -478,7 +477,6 @@
   <!-- espmartin -->
 <!--
   <project path="device/common" name="espmartin/device_common" remote="github" revision="kitkat" />
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="jb-perf" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="kitkat" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
@@ -496,6 +494,7 @@
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="kitkat" />
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="kitkat" />
 -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
   <!-- toolchains -->
