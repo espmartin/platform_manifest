@@ -394,7 +394,6 @@
   <project path="external/wpa_supplicant_8_ti" name="AOKP/external_wpa_supplicant_8_ti" remote="aokp" revision="kitkat" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="kitkat" />
   <project path="frameworks/opt/datetimepicker" name="AOKP/frameworks_opt_datetimepicker" remote="aokp" revision="kitkat" />
   <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
@@ -500,7 +499,6 @@
   <project path="device/common" name="espmartin/device_common" remote="github" revision="kitkat" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
   <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="kitkat" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="kitkat" />
   <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="kitkat" />
   <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="kitkat" />
@@ -516,6 +514,7 @@
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="kitkat" />
 -->
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
   <!-- toolchains -->
