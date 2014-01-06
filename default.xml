@@ -416,7 +416,7 @@
   <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="kitkat" />
   <project path="packages/services/Telephony" name="AOKP/packages_services_Telephony" remote="aokp" revision="kitkat" />
   <project path="prebuilt" name="AOKP/prebuilt" remote="aokp" revision="kitkat" />
-  <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="kitkat" groups="pdk" />
+  <!-- <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="kitkat" groups="pdk" /> -->
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/media" name="AOKP/system_media" remote="aokp" revision="kitkat" groups="pdk" />
