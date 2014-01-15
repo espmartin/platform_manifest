@@ -457,7 +457,6 @@
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-11.0" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-11.0" />
@@ -519,6 +518,7 @@
 -->
 <!--  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" /> -->
 <!--  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" /> -->
+  <project path="packages/apps/BluetoothExt" name="espmartin/packages_apps_BluetoothExt" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
   <!-- toolchains -->
