@@ -475,7 +475,6 @@
 <!-- AOKP -->
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/wpa_supplicant_8_ti" name="AOKP/external_wpa_supplicant_8_ti" remote="aokp" revision="kitkat" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="kitkat" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
@@ -501,6 +500,7 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
   
 <!-- espmartin -->
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
 <!--
   <project path="device/common" name="espmartin/device_common" remote="github" revision="kitkat" />
@@ -520,7 +520,6 @@
   <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="kitkat" />
   <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="kitkat" />
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
 -->
  
 </manifest>
