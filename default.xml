@@ -46,11 +46,11 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="espmartin/build" remote="github" revision="kitkat" >
+ <project path="build" name="espmartin/build" remote="github" revision="kitkat" >
      <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-<!-- CYANOGENMOD/AOSP -->
+<!-- CYANOGENMOD and AOSP -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-11.0" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" revision="cm-11.0" />
