@@ -198,7 +198,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" remote="cm" revision="cm-11.0" />
-  <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" remote="cm" revision="cm-11.0" >
+  <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" remote="cm" revision="cm-11.0" />
   <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" remote="cm" revision="cm-11.0" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="cm" revision="cm-11.0" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="cm" revision="cm-11.0" />
@@ -244,7 +244,7 @@
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" remote="cm" revision="cm-11.0" />
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" remote="cm" revision="cm-11.0" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="cm" revision="cm-11.0" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" remote="cm" revision="cm-11.0" >
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="cm" revision="cm-11.0" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="cm" revision="cm-11.0" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-11.0" />
