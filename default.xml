@@ -475,6 +475,7 @@
 <!-- AOKP -->
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/wpa_supplicant_8_ti" name="AOKP/external_wpa_supplicant_8_ti" remote="aokp" revision="kitkat" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="master" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
@@ -482,7 +483,7 @@
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   
 <!-- Mustaavalkosta -->
-  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-11.0" />
+  <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-11.0" /> -->
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
@@ -500,7 +501,8 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
   
 <!-- espmartin -->
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
+  <!-- <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" /> -->
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
 <!--
   <project path="device/common" name="espmartin/device_common" remote="github" revision="kitkat" />
