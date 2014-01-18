@@ -322,7 +322,6 @@
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
-  <!-- <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="cm" revision="cm-11.0" /> -->
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="cm" revision="cm-11.0" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -389,7 +388,6 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" remote="cm" revision="cm-11.0" />
-  <!-- <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="cm" revision="cm-11.0" /> -->
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="cm" revision="cm-11.0" />
@@ -524,44 +522,6 @@
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
   
-<!-- espmartin -->
-<!--
-  <project path="device/common" name="espmartin/device_common" remote="github" revision="kitkat" />
-  <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
-  <project path="external/bluetooth/bluedroid" name="espmartin/external_bluetooth_bluedroid" remote="github" revision="kitkat" />
-  <project path="frameworks/native" name="espmartin/frameworks_native" remote="github" revision="kitkat" />
-  <project path="hardware/libhardware" name="espmartin/hardware_libhardware" remote="github" revision="kitkat" />
-  <project path="hardware/qcom/display" name="espmartin/hardware_qcom_display" remote="github" revision="kitkat" />
-  <project path="hardware/qcom/media" name="espmartin/hardware_qcom_media" remote="github" revision="kitkat" />
-  <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
-  <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
-  <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="kitkat" />
-  <project path="packages/apps/Torch" name="espmartin/packages_apps_Torch" remote="github" revision="kitkat" />
-  <project path="system/core" name="espmartin/system_core" remote="github" revision="kitkat" />
-  <project path="system/security" name="espmartin/system_security" remote="github" revision="kitkat" />
-  <project path="vendor" name="espmartin/vendor" remote="github" revision="kitkat" />
-  <project path="vendor/htc/ace" name="espmartin/vendor_htc_ace" remote="github" revision="kitkat" />
-  <project path="vendor/qcom/proprietary" name="espmartin/vendor_qcom_proprietary" remote="github" revision="kitkat" />
--->
-<!--  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" /> -->
-<!--  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" /> -->
-<!--  <project path="packages/apps/BluetoothExt" name="espmartin/packages_apps_BluetoothExt" remote="github" revision="kitkat" /> -->
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
-  
-  <!-- toolchains -->
-<!--
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
--->
-  <!-- kernels -->
-<!--
-  <project path="kernel/htc/espmartin-htc7x30-3.0" name="espmartin/htc7x30-3.0" remote="github" revision="kitkat" />
-  <project path="kernel/htc/KrazyKat7x30-3.0" name="espmartin/KrazyKat7x30-3.0" remote="github" revision="kitkat" />
-  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-11.0" />
--->
-       
-  <!-- main manifest build -->
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
 
 </manifest>
