@@ -360,6 +360,7 @@
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="cm" revision="cm-11.0" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" remote="cm" revision="cm-11.0" />
@@ -474,7 +475,6 @@
   <project path="external/wpa_supplicant_8_ti" name="AOKP/external_wpa_supplicant_8_ti" remote="aokp" revision="kitkat" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="kitkat" />
   <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
   <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="kitkat" />
