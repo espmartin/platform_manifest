@@ -176,7 +176,6 @@
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" revision="cm-11.0" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" remote="cm" revision="cm-11.0" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="cm" revision="cm-11.0" />
@@ -469,6 +468,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
 
 <!-- AOKP -->
+  <project path="external/busybox" name="AOKP/external_busybox" remote="aokp" revision="kitkat" />
   <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/wpa_supplicant_8_ti" name="AOKP/external_wpa_supplicant_8_ti" remote="aokp" revision="kitkat" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="kitkat" />
