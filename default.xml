@@ -5,13 +5,13 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com/CyanogenMod/" />
-
   <remote name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
+
+  <remote name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com/CyanogenMod/" />
 
   <remote name="Mustaavalkosta"
            fetch="https://github.com/Mustaavalkosta/" />
