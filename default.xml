@@ -502,7 +502,7 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
 
 <!-- SaberMod -->
-  <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="sm" revision="sm-jb-mr2" />
+  <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="github" revision="sm-jb-mr2" />
    
 <!-- espmartin -->
   <!-- <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" /> -->
