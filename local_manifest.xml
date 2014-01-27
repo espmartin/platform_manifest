@@ -6,11 +6,12 @@
 
   <!-- remove AOKP repos -->
   <remove-project name="AOKP/vendor_aokp" />
-
+  <remove-project name="AOKP/build" />
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 
   <!-- espmartin -->
+  <project path="build" name="espmartin/build" remote="github" revision="kitkat" >
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
