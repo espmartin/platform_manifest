@@ -32,4 +32,7 @@
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
 
+  <!-- SaberMod -->
+  <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="github" revision="sm-jb-mr2" />
+
 </manifest>
