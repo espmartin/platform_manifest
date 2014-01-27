@@ -5,8 +5,9 @@
            fetch="https://github.com/" />
 
   <!-- remove AOKP repos -->
-  <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/build" />
+  <remove-project name="AOKP/vendor_aokp" />
+
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 
