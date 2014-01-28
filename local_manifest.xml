@@ -33,8 +33,10 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
 
   <!-- CyanogenMod -->
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-11.0" />
-  
+ 
   <!-- SaberMod -->
   <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="github" revision="sm-jb-mr2" />
 
