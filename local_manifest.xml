@@ -10,7 +10,8 @@
 
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+ 
   <!-- espmartin -->
   <project path="build" name="espmartin/build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -24,6 +25,7 @@
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat_beta" />
   
   <!-- Mustaavalkosta -->
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-legacy" name="Mustaavalkosta/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
