@@ -22,7 +22,7 @@
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat_beta" />
+  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
   <!-- Mustaavalkosta -->
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-11.0" />
