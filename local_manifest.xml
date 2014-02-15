@@ -6,6 +6,7 @@
 
   <!-- remove AOKP repos -->
   <remove-project name="AOKP/build" />
+  <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/vendor_aokp" />
 
   <!-- remove CM repos -->
@@ -19,6 +20,7 @@
   
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
