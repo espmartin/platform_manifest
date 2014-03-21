@@ -10,7 +10,6 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="AOKP/packages_apps_Torch" />
-  <remove-project name="AOKP/frameworks_opt_telephony" />
   
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -24,7 +23,6 @@
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
   <project path="device/htc/msm7x30-common" name="espmartin/device_htc_msm7x30-common" remote="github" revision="kitkat" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
-  <project path="frameworks/opt/telephony" name="espmartin/frameworks_opt_telephony" remote="github" revision="kitkat" groups="pdk" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
