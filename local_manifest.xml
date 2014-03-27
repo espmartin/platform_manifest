@@ -32,21 +32,21 @@
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
-  <!-- Mustaavalkosta -->
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display-legacy" name="Mustaavalkosta/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-11.0" />
-  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
-
+  <!-- AceEnablementProject -->
+  <project path="frameworks/av" name="AceEnablementProject/android_frameworks_av" remote="github" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="AceEnablementProject/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-legacy" name="AceEnablementProject/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="AceEnablementProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="AceEnablementProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/htc7x30-3.0" name="AceEnablementProject/htc7x30-3.0" remote="github" revision="cm-11.0" />
+  <project path="vendor/htc/ace" name="AceEnablementProject/android_vendor_htc_ace" remote="github" revision="cm-11.0" />
+  <project path="vendor/qcom/proprietary" name="AceEnablementProject/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Torch" name="AceEnablementProject/android_packages_apps_Torch" revision="cm-11.0" />
+ 
   <!-- CyanogenMod -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
   
   <!-- SaberMod -->
   <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="github" revision="sm-jb-mr2" />
