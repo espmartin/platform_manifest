@@ -29,6 +29,7 @@
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
+  <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
@@ -51,7 +52,4 @@
   <!-- SaberMod -->
   <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="github" revision="sm-jb-mr2" />
   
-  <!-- omnirom -->
-  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.4" />
-
 </manifest>
