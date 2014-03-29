@@ -13,7 +13,6 @@
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="AOKP/packages_apps_Torch" />
   
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -31,7 +30,6 @@
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
-  <project path="packages/apps/Torch" name="espmartin/android_packages_apps_Torch" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
   <!-- AceEnablementProject -->
