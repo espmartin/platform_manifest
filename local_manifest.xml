@@ -4,6 +4,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
            
+  <remote name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
   <!-- remove AOKP repos -->
   <remove-project name="AOKP/build" />
   <remove-project name="AOKP/frameworks_base" />
@@ -45,10 +49,5 @@
   
   <!-- SaberMod -->
   <project path="vendor/jackpal" name="SaberMod/android_vendor_jackpal" remote="github" revision="sm-jb-mr2" />
-  
-  <!-- SaberMod toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="github" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
-
   
 </manifest>
