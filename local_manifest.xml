@@ -24,7 +24,7 @@
   
  
   <!-- espmartin -->
-  <project path="build" name="espmartin/build" remote="github" revision="kitkat" >
+  <project path="build" name="espmartin/build" remote="github" revision="kitkat-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
