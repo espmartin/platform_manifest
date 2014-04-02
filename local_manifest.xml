@@ -20,7 +20,7 @@
   
   <!-- remove AOSP repos -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <remove-project name="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   
  
   <!-- espmartin -->
