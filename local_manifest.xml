@@ -31,12 +31,10 @@
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/DHD-Proximity-Sensor-Recalibrator" name="espmartin/DHD-Proximity-Sensor-Recalibrator" remote="github" revision="kitkat" />
+  <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
   <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
   
-  <!-- horn3t -->
-  <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" />
- 
   <!-- AceEnablementProject -->
   <project path="frameworks/av" name="AceEnablementProject/android_frameworks_av" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="AceEnablementProject/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
