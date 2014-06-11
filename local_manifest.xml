@@ -12,7 +12,6 @@
   <remove-project name="AOKP/packages_providers_MediaProvider" />
   
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   
   <!-- remove AOSP repos -->
