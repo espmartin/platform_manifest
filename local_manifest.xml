@@ -13,7 +13,6 @@
   
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
   <!-- remove AOSP repos -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
