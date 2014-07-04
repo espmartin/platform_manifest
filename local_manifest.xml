@@ -22,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="kitkat" />
+  <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="986bdbecadbd1841b5ea4fe110e48dc6e584e2af" />
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
