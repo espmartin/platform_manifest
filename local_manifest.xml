@@ -6,12 +6,12 @@
 
   <!-- remove AOKP repos -->
   <remove-project name="AOKP/build" />
+  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_frameworks_av" />
 
   <!-- remove AOSP repos -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
