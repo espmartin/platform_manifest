@@ -7,7 +7,6 @@
   <!-- remove AOKP repos -->
   <remove-project name="AOKP/build" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
 
@@ -23,7 +22,6 @@
   </project>
   
   <project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="71a32a462ed7099680539b4e0b2a3a9c19285afd" />
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="kitkat" />
   <project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="kitkat" />
   <project path="packages/apps/PerformanceControl" name="espmartin/packages_apps_PerformanceControl" remote="github" revision="kitkat" />
   <project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
