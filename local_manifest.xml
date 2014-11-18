@@ -29,13 +29,13 @@
 	<project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
 	
 	<!-- OpenDesireProject -->
-	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" revision="cm-11.0" />
-	<project path="frameworks/av" name="OpenDesireProject/android_frameworks_av" revision="cm-11.0" />
-	<project path="hardware/qcom/audio-legacy" name="OpenDesireProject/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
-	<project path="hardware/qcom/display-legacy" name="OpenDesireProject/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-	<project path="hardware/qcom/media-legacy" name="OpenDesireProject/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-	<project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" revision="cm-11.0" />
-	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" revision="cm-11.0" />
+	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" remote="github" revision="cm-11.0" />
+	<project path="frameworks/av" name="OpenDesireProject/android_frameworks_av" remote="github" revision="cm-11.0" />
+	<project path="hardware/qcom/audio-legacy" name="OpenDesireProject/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
+	<project path="hardware/qcom/display-legacy" name="OpenDesireProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+	<project path="hardware/qcom/media-legacy" name="OpenDesireProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+	<project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" remote="github" revision="cm-11.0" />
+	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" remote="github" revision="cm-11.0" />
 	
 	<!-- Ace -->
 	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" revision="cm-11.0" />
