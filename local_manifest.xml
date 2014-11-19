@@ -37,9 +37,9 @@
 	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" revision="cm-12.0" />
 
 	<!-- CyanogenMod -->
-	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
-	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
-	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-11.0" />
+	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
+	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
+	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
 
 	<!-- horn -->
 	<project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" />
