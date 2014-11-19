@@ -8,7 +8,6 @@
 	<remove-project name="AOKP/build" />
 	<remove-project name="AOKP/frameworks_av" />
 	<remove-project name="AOKP/frameworks_base" />
-	<remove-project name="AOKP/vendor_aokp" />
 	<remove-project name="AOKP/packages_apps_ROMControl" />
 	
 	<!-- remove CM repos -->
@@ -25,8 +24,7 @@
 	<project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="Lollipop" />
 	<project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="Lollipop" />
 	<project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="Lollipop" />
-	<project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="Lollipop" />
-	
+
 	<!-- OpenDesireProject -->
 	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" revision="cm-12.0" />
 	<project path="hardware/qcom/audio-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_audio-legacy" revision="cm-12.0-legacy-msm7x30" />
