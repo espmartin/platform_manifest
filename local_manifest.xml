@@ -11,7 +11,7 @@
 	<!-- remove CM repos -->
 	
 	<!-- espmartin -->
-	<project path="build" name="espmartin/build" remote="github" revision="Lollipop" >
+	<project path="build" name="espmartin/build" remote="github" revision="lollipop" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
 	
