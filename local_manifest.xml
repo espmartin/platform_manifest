@@ -19,16 +19,16 @@
 	<project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="Lollipop" />
 
 	<!-- OpenDesireProject -->
-	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" revision="cm-12.0" />
-	<project path="hardware/qcom/audio-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_audio-legacy" revision="cm-12.0-legacy-msm7x30" />
-	<project path="hardware/qcom/display-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_display-legacy" revision="cm-12.0-legacy-msm7x30" />
-	<project path="hardware/qcom/media-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_media-legacy" revision="cm-12.0-legacy-msm7x30" />
-	<project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" revision="cm-12.0" />
-	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" revision="cm-12.0" />
+	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" remote="github" revision="cm-12.0" />
+	<project path="hardware/qcom/audio-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_audio-legacy" remote="github" revision="cm-12.0-legacy-msm7x30" />
+	<project path="hardware/qcom/display-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-12.0-legacy-msm7x30" />
+	<project path="hardware/qcom/media-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-12.0-legacy-msm7x30" />
+	<project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" remote="github" revision="cm-12.0" />
+	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" remote="github" revision="cm-12.0" />
 
 	<!-- Ace -->
-	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="Lollipop" />
-	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" revision="cm-12.0" />
+	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="cm-12.0" />
+	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" remote="github" revision="cm-12.0" />
 
 	<!-- CyanogenMod -->
 	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
