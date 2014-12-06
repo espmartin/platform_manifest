@@ -40,6 +40,9 @@
 	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
 
 	<!-- horn -->
-	<project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" />
+	<!-- <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" /> -->
+	
+	<!-- omnirom -->
+	<project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-5.0" />
 
 </manifest>
