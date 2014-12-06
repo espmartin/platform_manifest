@@ -10,6 +10,7 @@
 
 	<!-- remove AOSP repos -->
 	<remove-project name="platform/packages/apps/Dialer" />
+	<remove-project name="platform/packages/apps/OMA-DM" />
 	
 	<!-- remove CM repos -->
 	
@@ -38,7 +39,7 @@
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
-
+	<project path="packages/apps/OMA-DM" name="CyanogenMod/android_packages_apps_OMA-DM" remote="github" revision="cm-12.0" />
 	<!-- horn -->
 	<!-- <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" /> -->
 	
