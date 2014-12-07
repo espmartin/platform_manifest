@@ -21,6 +21,9 @@
 	
 	<project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="lollipop" />
 	<project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="Lollipop" />
+	<project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
+	<project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="lollipop" />
+
 
 	<!-- OpenDesireProject -->
 	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" remote="github" revision="cm-12.0" />
