@@ -22,7 +22,7 @@
 	<project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="lollipop" />
 	<project path="local_manifest" name="espmartin/platform_manifest" remote="github" revision="Lollipop" />
 	<project path="packages/apps/ROMControl" name="espmartin/packages_apps_ROMControl" remote="github" revision="kitkat" />
-	<project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="lollipop" />
+	<project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="kitkat" />
 
 
 	<!-- OpenDesireProject -->
