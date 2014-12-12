@@ -6,6 +6,7 @@
 
 	<!-- remove AOKP repos -->
 	<remove-project name="AOKP/build" />
+	<remove-project name="AOKP/frameworks_base" />
 	
 	<!-- remove AOSP repos -->
 	<remove-project name="platform/packages/apps/Dialer" />
