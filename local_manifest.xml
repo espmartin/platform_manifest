@@ -34,7 +34,7 @@
 	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" remote="github" revision="cm-12.0" />
 
 	<!-- Ace -->
-	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="cm-12.0" />
+	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="lollipop" />
 	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" remote="github" revision="cm-12.0" />
 
 	<!-- CyanogenMod -->
