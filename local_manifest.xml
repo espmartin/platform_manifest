@@ -10,7 +10,6 @@
 	
 	<!-- remove AOSP repos -->
 	<remove-project name="platform/packages/apps/Dialer" />
-	<remove-project name="platform/packages/apps/OMA-DM" />
 	
 	<!-- remove CM repos -->
 	
