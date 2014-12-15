@@ -15,6 +15,7 @@
 	<remove-project name="platform/frameworks/opt/net/voip" />
 	<remove-project name="platform/frameworks/opt/net/wifi" />
 	<remove-project name="platform/frameworks/opt/net/ethernet" />
+	<remove-project name="platform/frameworks/opt/telephony" />
 
 	<!-- remove CM repos -->
 	
@@ -47,12 +48,13 @@
 	<project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="cm-12.0" />
 	<project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="github" revision="cm-12.0" />
 	<project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-12.0" />
+	<project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/OMA-DM" name="CyanogenMod/android_packages_apps_OMA-DM" remote="github" revision="cm-12.0" />
-	
+
 	<!-- horn -->
 	<!-- <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" /> -->
 	
