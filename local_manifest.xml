@@ -11,7 +11,11 @@
 	<!-- remove AOSP repos -->
 	<remove-project name="platform/packages/apps/Dialer" />
 	<remove-project name="platform/bionic" />
-	
+	<remove-project name="platform/frameworks/opt/net/ims" />
+	<remove-project name="platform/frameworks/opt/net/voip" />
+	<remove-project name="platform/frameworks/opt/net/wifi" />
+	<remove-project name="platform/frameworks/opt/net/ethernet" />
+
 	<!-- remove CM repos -->
 	
 	<!-- espmartin -->
@@ -39,6 +43,10 @@
 
 	<!-- CyanogenMod -->
 	<project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-12.0" />
+	<project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" remote="github" revision="cm-12.0" />
+	<project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="cm-12.0" />
+	<project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="github" revision="cm-12.0" />
+	<project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
