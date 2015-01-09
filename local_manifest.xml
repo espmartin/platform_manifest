@@ -33,31 +33,23 @@
 
 
 	<!-- OpenDesireProject -->
+	<project path="bionic" name="OpenDesireProject/android_bionic" remote="github" revision="cm-12.0" />
 	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" remote="github" revision="cm-12.0" />
 	<project path="hardware/qcom/audio-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_audio-legacy" remote="github" revision="cm-12.0-legacy-msm7x30" />
 	<project path="hardware/qcom/display-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-12.0-legacy-msm7x30" />
 	<project path="hardware/qcom/media-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-12.0-legacy-msm7x30" />
 	<project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" remote="github" revision="cm-12.0" />
+	<project path="packages/apps/ODPUpdater" name="OpenDesireProject/android_packages_apps_ODPUpdater" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" remote="github" revision="cm-12.0" />
-
+	
 	<!-- Ace -->
 	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="lollipop" />
 	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" remote="github" revision="cm-12.0" />
 
 	<!-- CyanogenMod -->
-	<project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-12.0" />
-	<project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" remote="github" revision="cm-12.0" />
-	<project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="cm-12.0" />
-	<project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="github" revision="cm-12.0" />
-	<project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-12.0" />
-	<project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
-	<project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
-	<project path="packages/apps/OMA-DM" name="CyanogenMod/android_packages_apps_OMA-DM" remote="github" revision="cm-12.0" />
-	<project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-12.0" />
-	<project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" remote="github" revision="cm-12.0" />
 
 	<!-- horn -->
 	<!-- <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" /> -->
