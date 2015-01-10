@@ -7,7 +7,7 @@
 	<!-- remove AOKP repos -->
 	<remove-project name="AOKP/build" />
 	<remove-project name="AOKP/frameworks_base" />
-	
+	<remove-project name="AOKP/vendor_aokp" />
 	<!-- remove AOSP repos -->
 	<remove-project name="platform/bionic" />
 
