@@ -12,8 +12,12 @@
 	<!-- remove AOSP repos -->
 	<remove-project name="platform/bionic" />
 	<remove-project name="platform/packages/apps/Dialer" />
-
+	<remove-project name="platform/external/conscrypt" />
+	
 	<!-- remove CM repos -->
+	
+	<!-- aosp -->
+	<project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="refs/tags/android-5.0.2_r1" />
 	
 	<!-- espmartin -->
 	<project path="build" name="espmartin/build" remote="github" revision="lollipop" >
