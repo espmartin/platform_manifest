@@ -16,6 +16,7 @@
 	<remove-project name="platform/external/conscrypt" />
 	<remove-project name="platform/external/e2fsprogs" />
 	<remove-project name="platform/external/fsck_msdos" />
+	<remove-project name="platform/external/sepolicy" />
 	 
 	<!-- remove CM repos -->
 	
@@ -49,6 +50,7 @@
 	<project path="vendor/htc" name="OpenDesireProject/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
 
 	<!-- CyanogenMod -->
+	<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
 	<project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-12.0" />
 	<project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
