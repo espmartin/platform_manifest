@@ -45,7 +45,9 @@
 	
 	<!-- Ace -->
 	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="lollipop" />
+	<project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" remote="github" revision="cm-12.0" />
 	<project path="vendor/htc/ace" name="OpenDesireProject/android_vendor_htc_ace" remote="github" revision="cm-12.0" />
+	<project path="vendor/htc" name="OpenDesireProject/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
 
 	<!-- CyanogenMod -->
 	<project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-12.0" />
@@ -55,7 +57,7 @@
 	<project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
 	<project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="github" revision="cm-12.0" />
-
+	
 	<!-- horn -->
 	<!-- <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" /> -->
 	
