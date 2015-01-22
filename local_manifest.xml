@@ -48,7 +48,6 @@
 
 	<!-- CyanogenMod -->
 	<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
-	<project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-12.0" />
 	<project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="cm-12.0" />
 	<project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" remote="github" revision="cm-12.0" />
  	<project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-12.0" />
