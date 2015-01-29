@@ -16,7 +16,8 @@
 	<remove-project name="platform/external/conscrypt" />
 
 	<!-- remove CM repos -->
-	
+	<remove-project name="CyanogenMod/android_bionic" />
+
 	<!-- aosp -->
 	<project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="refs/tags/android-5.0.2_r1" />
 	
@@ -40,6 +41,7 @@
 	<project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/ODPUpdater" name="OpenDesireProject/android_packages_apps_ODPUpdater" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" remote="github" revision="cm-12.0" />
+	<project path="system/core" name="OpenDesireProject/android_system_core" remote="github" revision="cm-12.0" />
 	
 	<!-- Ace -->
 	<project path="device/htc/ace" name="espmartin/device_htc_ace" remote="github" revision="lollipop" />
@@ -51,7 +53,6 @@
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
 	<project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-12.0" />
-	<project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="github" revision="cm-12.0" />
 	
 	<!-- horn -->
 	<!-- <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" /> -->
